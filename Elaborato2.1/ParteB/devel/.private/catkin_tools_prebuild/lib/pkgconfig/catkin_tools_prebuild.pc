@@ -1,0 +1,8 @@
+prefix=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/devel/.private/catkin_tools_prebuild
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/devel/.private/catkin_tools_prebuild/lib 
+Requires: 

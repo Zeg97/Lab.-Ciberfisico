@@ -1,0 +1,14 @@
+# Target labels
+ googlemock
+# Source files and their labels
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/CMakeFiles/googlemock
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/CMakeFiles/googlemock.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/CMakeFiles/googlemock-complete.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-install.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-mkdir.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-download.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-update.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-patch.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-configure.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-build.rule
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-test.rule

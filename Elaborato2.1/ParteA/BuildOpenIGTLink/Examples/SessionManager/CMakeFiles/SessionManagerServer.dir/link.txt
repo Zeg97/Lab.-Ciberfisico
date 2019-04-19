@@ -1,0 +1,1 @@
+/usr/bin/c++    -fno-tree-vectorize  -fno-tree-vectorize    -lpthread  -lpthread -rdynamic CMakeFiles/SessionManagerServer.dir/SessionManagerServer.o  -o ../../bin/SessionManagerServer -Wl,-rpath,/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/bin ../../bin/libOpenIGTLink.so.3.1.0 -lm -lpthread 

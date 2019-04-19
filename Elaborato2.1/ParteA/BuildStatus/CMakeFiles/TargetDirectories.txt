@@ -1,0 +1,4 @@
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildStatus/CMakeFiles/rebuild_cache.dir
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildStatus/CMakeFiles/edit_cache.dir
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildStatus/CMakeFiles/StatusClient.dir
+/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildStatus/CMakeFiles/StatusServer.dir

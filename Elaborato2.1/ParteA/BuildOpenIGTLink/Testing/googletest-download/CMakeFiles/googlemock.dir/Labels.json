@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/CMakeFiles/googlemock"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/CMakeFiles/googlemock.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/CMakeFiles/googlemock-complete.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-install.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-mkdir.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-download.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-update.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-patch.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-configure.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-build.rule"
+		},
+		{
+			"file" : "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Testing/googletest-download/googlemock-prefix/src/googlemock-stamp/googlemock-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googlemock"
+		],
+		"name" : "googlemock"
+	}
+}
