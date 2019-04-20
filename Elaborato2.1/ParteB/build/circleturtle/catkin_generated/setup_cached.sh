@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/devel/.private/circleturtle:$CMAKE_PREFIX_PATH"
-export PWD="/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/devel/.private/circleturtle/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/devel/.private/circleturtle:$CMAKE_PREFIX_PATH"
+export PWD="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/devel/.private/circleturtle/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle:$ROS_PACKAGE_PATH"

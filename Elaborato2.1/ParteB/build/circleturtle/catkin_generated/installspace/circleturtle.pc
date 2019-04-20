@@ -1,8 +1,8 @@
-prefix=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/install
+prefix=/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/install
 
 Name: circleturtle
 Description: Description of circleturtle
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/install/lib 
+Libs: -L/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/install/lib 
 Requires: 

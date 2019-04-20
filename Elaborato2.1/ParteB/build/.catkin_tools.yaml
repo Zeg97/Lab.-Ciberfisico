@@ -1,6 +1,6 @@
-devel_space: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/devel
+devel_space: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/devel
 install: false
-install_space: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/install
+install_space: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/install
 profile: default
-source_space: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src
-workspace: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB
+source_space: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src
+workspace: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB

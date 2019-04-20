@@ -1,0 +1,20 @@
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim::Pose_<std::allocator<void> >::Pose_[m[K’ names the constructor, not the type
+     [01;31m[Kturtlesim[m[K::Pose::Pose_ pose = turtlesim::Pose::Pose_();
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:25:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpose[m[K’
+     turtlesim::Pose::Pose_ [01;31m[Kpose[m[K = turtlesim::Pose::Pose_();
+                            [01;31m[K^~~~[m[K
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:25:59:[m[K [01;31m[Kerror: [m[Kstatement cannot resolve address of overloaded function
+     turtlesim::Pose::Pose_ pose = turtlesim::Pose::Pose_()[01;31m[K;[m[K
+                                                           [01;31m[K^[m[K
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+     [01;31m[Kpose[m[K->x = 3.2;
+     [01;31m[K^~~~[m[K
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:27:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpowq[m[K’
+     [01;36m[Kpose[m[K->x = 3.2;
+     [01;36m[K^~~~[m[K
+     [32m[Kpowq[m[K
+make[2]: *** [CMakeFiles/circleturtle.dir/src/circleturtle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/circleturtle.dir/all] Error 2
+make: *** [all] Error 2

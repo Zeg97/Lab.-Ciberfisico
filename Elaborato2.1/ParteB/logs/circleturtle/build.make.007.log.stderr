@@ -1,0 +1,11 @@
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:25:51:[m[K [01;31m[Kerror: [m[Kcannot call constructor ‘[01m[Kturtlesim::Pose_<std::allocator<void> >::Pose_[m[K’ directly [[01;31m[K-fpermissive[m[K]
+     turtlesim::Pose pose = turtlesim::Pose::Pose_([01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:25:51:[m[K [01;36m[Knote: [m[Kfor a function-style cast, remove the redundant ‘[01m[K::Pose_[m[K’
+[01m[K/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp:27:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}[m[K’
+     pose[01;31m[K->[m[Kx = 3.2;
+         [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/circleturtle.dir/src/circleturtle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/circleturtle.dir/all] Error 2
+make: *** [all] Error 2

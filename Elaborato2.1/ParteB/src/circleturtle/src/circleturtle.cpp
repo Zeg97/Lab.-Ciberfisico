@@ -1,45 +1,40 @@
 
 #include "ros/ros.h"
-// %EndTag(ROS_HEADER)%
-// %Tag(MSG_HEADER)%
-#include "std_msgs/String.h"
-// %EndTag(MSG_HEADER)%
-
+#include "geometry_msgs/Twist.h"
 #include <sstream>
+#include <math.h>
 
+#define CICLES_PER_SECOND 1
+#define RADIUS 2
 
 int main(int argc, char **argv) {
 
-  ros::init(argc, argv, "talker");
+    float angular_vel = CICLES_PER_SECOND * 2 * M_PI;
+    float tan_vel = RADIUS * angular_vel;
 
-  ros::NodeHandle n;
+    ros::init(argc, argv, "circleturtle");
+    ros::NodeHandle n;
+    ros::Publisher chatter_pub = n.advertise<geometry_msgs::Twist>("turtle1/cmd_vel", 10);
+    ros::Rate loop_rate(1);
 
-  ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
+    while (ros::ok()) {
 
-  ros::Rate loop_rate(10);
+        geometry_msgs::Twist com;
 
-  int count = 0;
+        com.linear.x = tan_vel;
+        com.linear.y = 0;
+        com.linear.z = 0;
+        com.angular.x = 0;
+        com.angular.y = 0;
+        com.angular.z = angular_vel;
 
-  while (ros::ok()) {
+        chatter_pub.publish(com);
 
-    std_msgs::String msg;
+        ros::spinOnce();
 
-    std::stringstream ss;
-    ss << "hello world " << count;
-    msg.data = ss.str();
+        loop_rate.sleep();
+    }
 
-    ROS_INFO("%s", msg.data.c_str());
-
-    chatter_pub.publish(msg);
-
-    ros::spinOnce();
-
-    loop_rate.sleep();
-
-    ++count;
-  }
-
-
-  return 0;
+    return 0;
 }
 

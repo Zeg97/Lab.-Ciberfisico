@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle"
 
 # Utility rule file for geometry_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 

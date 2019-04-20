@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/build/circleturtle/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

@@ -6,12 +6,50 @@
 
 #IncludeRegexTransform: 
 
-/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp
+/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/circleturtle.cpp
 ros/ros.h
-/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle/src/ros/ros.h
-std_msgs/String.h
-/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/ParteB/src/circleturtle/src/std_msgs/String.h
+/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/ros/ros.h
+geometry_msgs/Twist.h
+/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteB/src/circleturtle/src/geometry_msgs/Twist.h
 sstream
+-
+math.h
+-
+
+/opt/ros/melodic/include/geometry_msgs/Twist.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/Vector3.h
+-
+geometry_msgs/Vector3.h
+-
+
+/opt/ros/melodic/include/geometry_msgs/Vector3.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/melodic/include/ros/advertise_options.h
@@ -659,22 +697,6 @@ ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
 
 /opt/ros/melodic/include/rosconsole/macros_generated.h
-
-/opt/ros/melodic/include/std_msgs/String.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
 
 /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 ros/macros.h
