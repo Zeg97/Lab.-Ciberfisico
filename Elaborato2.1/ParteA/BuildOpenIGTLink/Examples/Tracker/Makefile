@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Tracker/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Tracker/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Tracker/CMakeFiles/TrackerServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerServer.dir/rule
 .PHONY : Examples/Tracker/CMakeFiles/TrackerServer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ TrackerServer: Examples/Tracker/CMakeFiles/TrackerServer.dir/rule
 
 # fast build rule for target.
 TrackerServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/build
 .PHONY : TrackerServer/fast
 
 # Convenience name for target.
 Examples/Tracker/CMakeFiles/TrackerClient2.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerClient2.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerClient2.dir/rule
 .PHONY : Examples/Tracker/CMakeFiles/TrackerClient2.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ TrackerClient2: Examples/Tracker/CMakeFiles/TrackerClient2.dir/rule
 
 # fast build rule for target.
 TrackerClient2/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/build
 .PHONY : TrackerClient2/fast
 
 # Convenience name for target.
 Examples/Tracker/CMakeFiles/TrackerClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerClient.dir/rule
 .PHONY : Examples/Tracker/CMakeFiles/TrackerClient.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ TrackerClient: Examples/Tracker/CMakeFiles/TrackerClient.dir/rule
 
 # fast build rule for target.
 TrackerClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/build
 .PHONY : TrackerClient/fast
 
 # Convenience name for target.
 Examples/Tracker/CMakeFiles/TrackerServer2.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerServer2.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerServer2.dir/rule
 .PHONY : Examples/Tracker/CMakeFiles/TrackerServer2.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ TrackerServer2: Examples/Tracker/CMakeFiles/TrackerServer2.dir/rule
 
 # fast build rule for target.
 TrackerServer2/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/build
 .PHONY : TrackerServer2/fast
 
 # Convenience name for target.
 Examples/Tracker/CMakeFiles/TrackerClient3.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerClient3.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Tracker/CMakeFiles/TrackerClient3.dir/rule
 .PHONY : Examples/Tracker/CMakeFiles/TrackerClient3.dir/rule
 
 # Convenience name for target.
@@ -228,82 +228,82 @@ TrackerClient3: Examples/Tracker/CMakeFiles/TrackerClient3.dir/rule
 
 # fast build rule for target.
 TrackerClient3/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/build
 .PHONY : TrackerClient3/fast
 
 # target to build an object file
 TrackerClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/TrackerClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/TrackerClient.o
 .PHONY : TrackerClient.o
 
 # target to preprocess a source file
 TrackerClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/TrackerClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/TrackerClient.i
 .PHONY : TrackerClient.i
 
 # target to generate assembly for a file
 TrackerClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/TrackerClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient.dir/TrackerClient.s
 .PHONY : TrackerClient.s
 
 # target to build an object file
 TrackerClient2.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/TrackerClient2.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/TrackerClient2.o
 .PHONY : TrackerClient2.o
 
 # target to preprocess a source file
 TrackerClient2.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/TrackerClient2.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/TrackerClient2.i
 .PHONY : TrackerClient2.i
 
 # target to generate assembly for a file
 TrackerClient2.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/TrackerClient2.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient2.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient2.dir/TrackerClient2.s
 .PHONY : TrackerClient2.s
 
 # target to build an object file
 TrackerClient3.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/TrackerClient3.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/TrackerClient3.o
 .PHONY : TrackerClient3.o
 
 # target to preprocess a source file
 TrackerClient3.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/TrackerClient3.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/TrackerClient3.i
 .PHONY : TrackerClient3.i
 
 # target to generate assembly for a file
 TrackerClient3.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/TrackerClient3.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerClient3.dir/build.make Examples/Tracker/CMakeFiles/TrackerClient3.dir/TrackerClient3.s
 .PHONY : TrackerClient3.s
 
 # target to build an object file
 TrackerServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/TrackerServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/TrackerServer.o
 .PHONY : TrackerServer.o
 
 # target to preprocess a source file
 TrackerServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/TrackerServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/TrackerServer.i
 .PHONY : TrackerServer.i
 
 # target to generate assembly for a file
 TrackerServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/TrackerServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer.dir/TrackerServer.s
 .PHONY : TrackerServer.s
 
 # target to build an object file
 TrackerServer2.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/TrackerServer2.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/TrackerServer2.o
 .PHONY : TrackerServer2.o
 
 # target to preprocess a source file
 TrackerServer2.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/TrackerServer2.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/TrackerServer2.i
 .PHONY : TrackerServer2.i
 
 # target to generate assembly for a file
 TrackerServer2.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/TrackerServer2.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Tracker/CMakeFiles/TrackerServer2.dir/build.make Examples/Tracker/CMakeFiles/TrackerServer2.dir/TrackerServer2.s
 .PHONY : TrackerServer2.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

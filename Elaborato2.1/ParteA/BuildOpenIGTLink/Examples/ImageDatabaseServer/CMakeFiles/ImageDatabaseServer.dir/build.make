@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/progress
 include Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/flags.make
 
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o: Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/flags.make
-Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx
+Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx"
 
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx > CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx" > CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.i
 
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx -o CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/ImageDatabaseServer/ImageDatabaseServer.cxx" -o CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.s
 
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/ImageDatabaseServer.o.requires:
 
@@ -92,8 +92,8 @@ bin/ImageDatabaseServer: Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseSe
 bin/ImageDatabaseServer: Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/build.make
 bin/ImageDatabaseServer: bin/libOpenIGTLink.so.3.1.0
 bin/ImageDatabaseServer: Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/ImageDatabaseServer"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageDatabaseServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/ImageDatabaseServer"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageDatabaseServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/build: bin/ImageDatabaseServer
@@ -105,10 +105,10 @@ Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/requires: Exampl
 .PHONY : Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/requires
 
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer && $(CMAKE_COMMAND) -P CMakeFiles/ImageDatabaseServer.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer" && $(CMAKE_COMMAND) -P CMakeFiles/ImageDatabaseServer.dir/cmake_clean.cmake
 .PHONY : Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/clean
 
 Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/ImageDatabaseServer /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/ImageDatabaseServer" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/ImageDatabaseServer/CMakeFiles/ImageDatabaseServer.dir/depend
 

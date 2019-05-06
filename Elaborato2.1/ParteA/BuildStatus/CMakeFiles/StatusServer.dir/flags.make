@@ -6,5 +6,5 @@ CXX_FLAGS =   -fno-tree-vectorize
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink -isystem /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source -isystem /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source -isystem /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil -isystem /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/igtlutil 
+CXX_INCLUDES = -isystem "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" -isystem "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source" -isystem "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" -isystem "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil" -isystem "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/igtlutil" 
 

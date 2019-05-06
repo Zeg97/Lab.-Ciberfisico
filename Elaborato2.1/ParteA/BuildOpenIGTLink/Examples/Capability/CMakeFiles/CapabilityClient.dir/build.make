@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/Capability/CMakeFiles/CapabilityClient.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/Capability/CMakeFiles/CapabilityClient.dir/progress.make
 include Examples/Capability/CMakeFiles/CapabilityClient.dir/flags.make
 
 Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o: Examples/Capability/CMakeFiles/CapabilityClient.dir/flags.make
-Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Capability/CapabilityClient.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CapabilityClient.dir/CapabilityClient.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Capability/CapabilityClient.cxx
+Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Capability/CapabilityClient.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CapabilityClient.dir/CapabilityClient.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Capability/CapabilityClient.cxx"
 
 Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CapabilityClient.dir/CapabilityClient.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Capability/CapabilityClient.cxx > CMakeFiles/CapabilityClient.dir/CapabilityClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Capability/CapabilityClient.cxx" > CMakeFiles/CapabilityClient.dir/CapabilityClient.i
 
 Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CapabilityClient.dir/CapabilityClient.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Capability/CapabilityClient.cxx -o CMakeFiles/CapabilityClient.dir/CapabilityClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Capability/CapabilityClient.cxx" -o CMakeFiles/CapabilityClient.dir/CapabilityClient.s
 
 Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o.requires:
 
@@ -92,8 +92,8 @@ bin/CapabilityClient: Examples/Capability/CMakeFiles/CapabilityClient.dir/Capabi
 bin/CapabilityClient: Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make
 bin/CapabilityClient: bin/libOpenIGTLink.so.3.1.0
 bin/CapabilityClient: Examples/Capability/CMakeFiles/CapabilityClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/CapabilityClient"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CapabilityClient.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/CapabilityClient"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CapabilityClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/Capability/CMakeFiles/CapabilityClient.dir/build: bin/CapabilityClient
@@ -105,10 +105,10 @@ Examples/Capability/CMakeFiles/CapabilityClient.dir/requires: Examples/Capabilit
 .PHONY : Examples/Capability/CMakeFiles/CapabilityClient.dir/requires
 
 Examples/Capability/CMakeFiles/CapabilityClient.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability && $(CMAKE_COMMAND) -P CMakeFiles/CapabilityClient.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability" && $(CMAKE_COMMAND) -P CMakeFiles/CapabilityClient.dir/cmake_clean.cmake
 .PHONY : Examples/Capability/CMakeFiles/CapabilityClient.dir/clean
 
 Examples/Capability/CMakeFiles/CapabilityClient.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Capability /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability/CMakeFiles/CapabilityClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Capability" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability/CMakeFiles/CapabilityClient.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/Capability/CMakeFiles/CapabilityClient.dir/depend
 

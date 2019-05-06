@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/Receiver/CMakeFiles/ReceiveServer.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/Receiver/CMakeFiles/ReceiveServer.dir/progress.make
 include Examples/Receiver/CMakeFiles/ReceiveServer.dir/flags.make
 
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.o: Examples/Receiver/CMakeFiles/ReceiveServer.dir/flags.make
-Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReceiveServer.dir/ReceiveServer.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx
+Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReceiveServer.dir/ReceiveServer.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx"
 
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReceiveServer.dir/ReceiveServer.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx > CMakeFiles/ReceiveServer.dir/ReceiveServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx" > CMakeFiles/ReceiveServer.dir/ReceiveServer.i
 
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReceiveServer.dir/ReceiveServer.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx -o CMakeFiles/ReceiveServer.dir/ReceiveServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Receiver/ReceiveServer.cxx" -o CMakeFiles/ReceiveServer.dir/ReceiveServer.s
 
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.o.requires:
 
@@ -92,8 +92,8 @@ bin/ReceiveServer: Examples/Receiver/CMakeFiles/ReceiveServer.dir/ReceiveServer.
 bin/ReceiveServer: Examples/Receiver/CMakeFiles/ReceiveServer.dir/build.make
 bin/ReceiveServer: bin/libOpenIGTLink.so.3.1.0
 bin/ReceiveServer: Examples/Receiver/CMakeFiles/ReceiveServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/ReceiveServer"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ReceiveServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/ReceiveServer"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ReceiveServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/build: bin/ReceiveServer
@@ -105,10 +105,10 @@ Examples/Receiver/CMakeFiles/ReceiveServer.dir/requires: Examples/Receiver/CMake
 .PHONY : Examples/Receiver/CMakeFiles/ReceiveServer.dir/requires
 
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver && $(CMAKE_COMMAND) -P CMakeFiles/ReceiveServer.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver" && $(CMAKE_COMMAND) -P CMakeFiles/ReceiveServer.dir/cmake_clean.cmake
 .PHONY : Examples/Receiver/CMakeFiles/ReceiveServer.dir/clean
 
 Examples/Receiver/CMakeFiles/ReceiveServer.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Receiver /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Receiver/CMakeFiles/ReceiveServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Receiver" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Receiver/CMakeFiles/ReceiveServer.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/Receiver/CMakeFiles/ReceiveServer.dir/depend
 

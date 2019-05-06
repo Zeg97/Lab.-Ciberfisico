@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/String/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/String/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/String/CMakeFiles/StringServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/CMakeFiles/StringServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/CMakeFiles/StringServer.dir/rule
 .PHONY : Examples/String/CMakeFiles/StringServer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ StringServer: Examples/String/CMakeFiles/StringServer.dir/rule
 
 # fast build rule for target.
 StringServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/build
 .PHONY : StringServer/fast
 
 # Convenience name for target.
 Examples/String/CMakeFiles/StringClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/CMakeFiles/StringClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/CMakeFiles/StringClient.dir/rule
 .PHONY : Examples/String/CMakeFiles/StringClient.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ StringClient: Examples/String/CMakeFiles/StringClient.dir/rule
 
 # fast build rule for target.
 StringClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/build
 .PHONY : StringClient/fast
 
 # Convenience name for target.
 Examples/String/CMakeFiles/StringEchoServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/CMakeFiles/StringEchoServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/String/CMakeFiles/StringEchoServer.dir/rule
 .PHONY : Examples/String/CMakeFiles/StringEchoServer.dir/rule
 
 # Convenience name for target.
@@ -198,52 +198,52 @@ StringEchoServer: Examples/String/CMakeFiles/StringEchoServer.dir/rule
 
 # fast build rule for target.
 StringEchoServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/build
 .PHONY : StringEchoServer/fast
 
 # target to build an object file
 StringClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/StringClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/StringClient.o
 .PHONY : StringClient.o
 
 # target to preprocess a source file
 StringClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/StringClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/StringClient.i
 .PHONY : StringClient.i
 
 # target to generate assembly for a file
 StringClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/StringClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringClient.dir/build.make Examples/String/CMakeFiles/StringClient.dir/StringClient.s
 .PHONY : StringClient.s
 
 # target to build an object file
 StringEchoServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/StringEchoServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/StringEchoServer.o
 .PHONY : StringEchoServer.o
 
 # target to preprocess a source file
 StringEchoServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/StringEchoServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/StringEchoServer.i
 .PHONY : StringEchoServer.i
 
 # target to generate assembly for a file
 StringEchoServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/StringEchoServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringEchoServer.dir/build.make Examples/String/CMakeFiles/StringEchoServer.dir/StringEchoServer.s
 .PHONY : StringEchoServer.s
 
 # target to build an object file
 StringServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/StringServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/StringServer.o
 .PHONY : StringServer.o
 
 # target to preprocess a source file
 StringServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/StringServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/StringServer.i
 .PHONY : StringServer.i
 
 # target to generate assembly for a file
 StringServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/StringServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/String/CMakeFiles/StringServer.dir/build.make Examples/String/CMakeFiles/StringServer.dir/StringServer.s
 .PHONY : StringServer.s
 
 # Help Target
@@ -281,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

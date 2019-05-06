@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Capability/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Capability/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Capability/CMakeFiles/CapabilityServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/CMakeFiles/CapabilityServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/CMakeFiles/CapabilityServer.dir/rule
 .PHONY : Examples/Capability/CMakeFiles/CapabilityServer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ CapabilityServer: Examples/Capability/CMakeFiles/CapabilityServer.dir/rule
 
 # fast build rule for target.
 CapabilityServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/build
 .PHONY : CapabilityServer/fast
 
 # Convenience name for target.
 Examples/Capability/CMakeFiles/CapabilityClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/CMakeFiles/CapabilityClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Capability/CMakeFiles/CapabilityClient.dir/rule
 .PHONY : Examples/Capability/CMakeFiles/CapabilityClient.dir/rule
 
 # Convenience name for target.
@@ -183,37 +183,37 @@ CapabilityClient: Examples/Capability/CMakeFiles/CapabilityClient.dir/rule
 
 # fast build rule for target.
 CapabilityClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/build
 .PHONY : CapabilityClient/fast
 
 # target to build an object file
 CapabilityClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.o
 .PHONY : CapabilityClient.o
 
 # target to preprocess a source file
 CapabilityClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.i
 .PHONY : CapabilityClient.i
 
 # target to generate assembly for a file
 CapabilityClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityClient.dir/build.make Examples/Capability/CMakeFiles/CapabilityClient.dir/CapabilityClient.s
 .PHONY : CapabilityClient.s
 
 # target to build an object file
 CapabilityServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/CapabilityServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/CapabilityServer.o
 .PHONY : CapabilityServer.o
 
 # target to preprocess a source file
 CapabilityServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/CapabilityServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/CapabilityServer.i
 .PHONY : CapabilityServer.i
 
 # target to generate assembly for a file
 CapabilityServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/CapabilityServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Capability/CMakeFiles/CapabilityServer.dir/build.make Examples/Capability/CMakeFiles/CapabilityServer.dir/CapabilityServer.s
 .PHONY : CapabilityServer.s
 
 # Help Target
@@ -247,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

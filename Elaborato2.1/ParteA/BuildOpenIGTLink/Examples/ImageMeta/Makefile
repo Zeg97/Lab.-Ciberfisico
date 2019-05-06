@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/ImageMeta/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/ImageMeta/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/rule
 .PHONY : Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ImageMetaClient: Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/rule
 
 # fast build rule for target.
 ImageMetaClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build
 .PHONY : ImageMetaClient/fast
 
 # Convenience name for target.
 Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/rule
 .PHONY : Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ ImageMetaServer: Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/rule
 
 # fast build rule for target.
 ImageMetaServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build
 .PHONY : ImageMetaServer/fast
 
 # Convenience name for target.
 Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/rule
 .PHONY : Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ LabelMetaServer: Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/rule
 
 # fast build rule for target.
 LabelMetaServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build
 .PHONY : LabelMetaServer/fast
 
 # Convenience name for target.
 Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/rule
 .PHONY : Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/rule
 
 # Convenience name for target.
@@ -213,67 +213,67 @@ LabelMetaClient: Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/rule
 
 # fast build rule for target.
 LabelMetaClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build
 .PHONY : LabelMetaClient/fast
 
 # target to build an object file
 ImageMetaClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/ImageMetaClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/ImageMetaClient.o
 .PHONY : ImageMetaClient.o
 
 # target to preprocess a source file
 ImageMetaClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/ImageMetaClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/ImageMetaClient.i
 .PHONY : ImageMetaClient.i
 
 # target to generate assembly for a file
 ImageMetaClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/ImageMetaClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaClient.dir/ImageMetaClient.s
 .PHONY : ImageMetaClient.s
 
 # target to build an object file
 ImageMetaServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/ImageMetaServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/ImageMetaServer.o
 .PHONY : ImageMetaServer.o
 
 # target to preprocess a source file
 ImageMetaServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/ImageMetaServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/ImageMetaServer.i
 .PHONY : ImageMetaServer.i
 
 # target to generate assembly for a file
 ImageMetaServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/ImageMetaServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/ImageMetaServer.dir/ImageMetaServer.s
 .PHONY : ImageMetaServer.s
 
 # target to build an object file
 LabelMetaClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/LabelMetaClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/LabelMetaClient.o
 .PHONY : LabelMetaClient.o
 
 # target to preprocess a source file
 LabelMetaClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/LabelMetaClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/LabelMetaClient.i
 .PHONY : LabelMetaClient.i
 
 # target to generate assembly for a file
 LabelMetaClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/LabelMetaClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaClient.dir/LabelMetaClient.s
 .PHONY : LabelMetaClient.s
 
 # target to build an object file
 LabelMetaServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/LabelMetaServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/LabelMetaServer.o
 .PHONY : LabelMetaServer.o
 
 # target to preprocess a source file
 LabelMetaServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/LabelMetaServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/LabelMetaServer.i
 .PHONY : LabelMetaServer.i
 
 # target to generate assembly for a file
 LabelMetaServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/LabelMetaServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/build.make Examples/ImageMeta/CMakeFiles/LabelMetaServer.dir/LabelMetaServer.s
 .PHONY : LabelMetaServer.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

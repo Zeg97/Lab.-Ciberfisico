@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfe
 include Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/flags.make
 
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o: Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/flags.make
-Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx
+Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx"
 
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx > CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx" > CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.i
 
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx -o CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/TrackingDataUDPTransfer/TrackingDataClientUDPTransfer.cxx" -o CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.s
 
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o.requires:
 
@@ -92,8 +92,8 @@ bin/TrackingDataClientUDPTransfer: Examples/TrackingDataUDPTransfer/CMakeFiles/T
 bin/TrackingDataClientUDPTransfer: Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make
 bin/TrackingDataClientUDPTransfer: bin/libOpenIGTLink.so.3.1.0
 bin/TrackingDataClientUDPTransfer: Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/TrackingDataClientUDPTransfer"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TrackingDataClientUDPTransfer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/TrackingDataClientUDPTransfer"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TrackingDataClientUDPTransfer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build: bin/TrackingDataClientUDPTransfer
@@ -105,10 +105,10 @@ Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/re
 .PHONY : Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/requires
 
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer && $(CMAKE_COMMAND) -P CMakeFiles/TrackingDataClientUDPTransfer.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer" && $(CMAKE_COMMAND) -P CMakeFiles/TrackingDataClientUDPTransfer.dir/cmake_clean.cmake
 .PHONY : Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/clean
 
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/TrackingDataUDPTransfer /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/TrackingDataUDPTransfer" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/depend
 

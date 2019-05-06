@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/rule
 .PHONY : Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ MultipleMethodExecute: Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/rule
 
 # fast build rule for target.
 MultipleMethodExecute/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build
 .PHONY : MultipleMethodExecute/fast
 
 # Convenience name for target.
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/rule
 .PHONY : Examples/Thread/CMakeFiles/SingleMethodExecute.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ SingleMethodExecute: Examples/Thread/CMakeFiles/SingleMethodExecute.dir/rule
 
 # fast build rule for target.
 SingleMethodExecute/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build
 .PHONY : SingleMethodExecute/fast
 
 # Convenience name for target.
 Examples/Thread/CMakeFiles/SpawnThread.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/CMakeFiles/SpawnThread.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Thread/CMakeFiles/SpawnThread.dir/rule
 .PHONY : Examples/Thread/CMakeFiles/SpawnThread.dir/rule
 
 # Convenience name for target.
@@ -198,52 +198,52 @@ SpawnThread: Examples/Thread/CMakeFiles/SpawnThread.dir/rule
 
 # fast build rule for target.
 SpawnThread/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/build
 .PHONY : SpawnThread/fast
 
 # target to build an object file
 MultipleMethodExecute.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/MultipleMethodExecute.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/MultipleMethodExecute.o
 .PHONY : MultipleMethodExecute.o
 
 # target to preprocess a source file
 MultipleMethodExecute.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/MultipleMethodExecute.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/MultipleMethodExecute.i
 .PHONY : MultipleMethodExecute.i
 
 # target to generate assembly for a file
 MultipleMethodExecute.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/MultipleMethodExecute.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/MultipleMethodExecute.dir/MultipleMethodExecute.s
 .PHONY : MultipleMethodExecute.s
 
 # target to build an object file
 SingleMethodExecute.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o
 .PHONY : SingleMethodExecute.o
 
 # target to preprocess a source file
 SingleMethodExecute.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.i
 .PHONY : SingleMethodExecute.i
 
 # target to generate assembly for a file
 SingleMethodExecute.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.s
 .PHONY : SingleMethodExecute.s
 
 # target to build an object file
 SpawnThread.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/SpawnThread.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/SpawnThread.o
 .PHONY : SpawnThread.o
 
 # target to preprocess a source file
 SpawnThread.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/SpawnThread.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/SpawnThread.i
 .PHONY : SpawnThread.i
 
 # target to generate assembly for a file
 SpawnThread.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/SpawnThread.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Thread/CMakeFiles/SpawnThread.dir/build.make Examples/Thread/CMakeFiles/SpawnThread.dir/SpawnThread.s
 .PHONY : SpawnThread.s
 
 # Help Target
@@ -281,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

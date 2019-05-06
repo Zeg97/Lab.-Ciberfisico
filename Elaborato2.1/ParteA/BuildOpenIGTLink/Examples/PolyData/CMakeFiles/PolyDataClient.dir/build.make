@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/PolyData/CMakeFiles/PolyDataClient.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/PolyData/CMakeFiles/PolyDataClient.dir/progress.make
 include Examples/PolyData/CMakeFiles/PolyDataClient.dir/flags.make
 
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.o: Examples/PolyData/CMakeFiles/PolyDataClient.dir/flags.make
-Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PolyDataClient.dir/PolyDataClient.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx
+Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PolyDataClient.dir/PolyDataClient.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx"
 
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PolyDataClient.dir/PolyDataClient.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx > CMakeFiles/PolyDataClient.dir/PolyDataClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx" > CMakeFiles/PolyDataClient.dir/PolyDataClient.i
 
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PolyDataClient.dir/PolyDataClient.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx -o CMakeFiles/PolyDataClient.dir/PolyDataClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/PolyData/PolyDataClient.cxx" -o CMakeFiles/PolyDataClient.dir/PolyDataClient.s
 
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClient.o.requires:
 
@@ -92,8 +92,8 @@ bin/PolyDataClient: Examples/PolyData/CMakeFiles/PolyDataClient.dir/PolyDataClie
 bin/PolyDataClient: Examples/PolyData/CMakeFiles/PolyDataClient.dir/build.make
 bin/PolyDataClient: bin/libOpenIGTLink.so.3.1.0
 bin/PolyDataClient: Examples/PolyData/CMakeFiles/PolyDataClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/PolyDataClient"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PolyDataClient.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/PolyDataClient"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PolyDataClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/build: bin/PolyDataClient
@@ -105,10 +105,10 @@ Examples/PolyData/CMakeFiles/PolyDataClient.dir/requires: Examples/PolyData/CMak
 .PHONY : Examples/PolyData/CMakeFiles/PolyDataClient.dir/requires
 
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData && $(CMAKE_COMMAND) -P CMakeFiles/PolyDataClient.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData" && $(CMAKE_COMMAND) -P CMakeFiles/PolyDataClient.dir/cmake_clean.cmake
 .PHONY : Examples/PolyData/CMakeFiles/PolyDataClient.dir/clean
 
 Examples/PolyData/CMakeFiles/PolyDataClient.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/PolyData /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/PolyData/CMakeFiles/PolyDataClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/PolyData" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/PolyData/CMakeFiles/PolyDataClient.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/PolyData/CMakeFiles/PolyDataClient.dir/depend
 

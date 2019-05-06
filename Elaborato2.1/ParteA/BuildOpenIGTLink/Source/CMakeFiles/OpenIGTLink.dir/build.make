@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Source/CMakeFiles/OpenIGTLink.dir/depend.make
@@ -58,17 +58,17 @@ include Source/CMakeFiles/OpenIGTLink.dir/progress.make
 include Source/CMakeFiles/OpenIGTLink.dir/flags.make
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_header.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_header.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_header.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_header.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_header.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_header.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_header.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_header.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o.requires:
 
@@ -82,17 +82,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_image.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_image.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_image.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_image.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_image.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_image.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o.requires:
 
@@ -106,17 +106,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_transform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_transform.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_transform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_transform.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_transform.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_transform.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_transform.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_transform.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o.requires:
 
@@ -130,17 +130,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_status.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_status.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_status.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_status.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_status.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_status.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_status.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_status.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o.requires:
 
@@ -154,17 +154,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_util.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_util.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_util.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_util.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_util.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_util.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o.requires:
 
@@ -178,17 +178,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_position.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_position.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_position.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_position.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_position.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_position.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_position.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_position.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o.requires:
 
@@ -202,17 +202,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o.provides.build: Sou
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_capability.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_capability.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_capability.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_capability.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_capability.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_capability.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_capability.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_capability.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o.requires:
 
@@ -226,17 +226,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o.provides.build: S
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlClientSocket.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlClientSocket.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlClientSocket.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlClientSocket.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlClientSocket.cxx > CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlClientSocket.cxx" > CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlClientSocket.cxx -o CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlClientSocket.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o.requires:
 
@@ -250,17 +250,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCapabilityMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCapabilityMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCapabilityMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCapabilityMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCapabilityMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCapabilityMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCapabilityMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCapabilityMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o.requires:
 
@@ -274,17 +274,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlConditionVariable.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlConditionVariable.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlConditionVariable.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlConditionVariable.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlConditionVariable.cxx > CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlConditionVariable.cxx" > CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlConditionVariable.cxx -o CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlConditionVariable.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o.requires:
 
@@ -298,17 +298,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlFastMutexLock.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlFastMutexLock.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlFastMutexLock.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlFastMutexLock.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlFastMutexLock.cxx > CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlFastMutexLock.cxx" > CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlFastMutexLock.cxx -o CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlFastMutexLock.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o.requires:
 
@@ -322,17 +322,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o.requires:
 
@@ -346,17 +346,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage2.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage2.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage2.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage2.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage2.cxx > CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage2.cxx" > CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMessage2.cxx -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMessage2.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o.requires:
 
@@ -370,17 +370,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLightObject.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLightObject.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLightObject.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLightObject.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLightObject.cxx > CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLightObject.cxx" > CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLightObject.cxx -o CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLightObject.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o.requires:
 
@@ -394,17 +394,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o.provides.build: Source/C
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMath.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMath.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMath.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMath.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMath.cxx > CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMath.cxx" > CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMath.cxx -o CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMath.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o.requires:
 
@@ -418,17 +418,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o.provides.build: Source/CMakeFil
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageBase.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageBase.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageBase.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageBase.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageBase.cxx > CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageBase.cxx" > CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageBase.cxx -o CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageBase.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o.requires:
 
@@ -442,17 +442,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o.provides.build: Source/C
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageFactory.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageFactory.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageFactory.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageFactory.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageFactory.cxx > CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageFactory.cxx" > CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageFactory.cxx -o CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageFactory.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o.requires:
 
@@ -466,17 +466,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMultiThreader.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMultiThreader.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMultiThreader.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMultiThreader.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMultiThreader.cxx > CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMultiThreader.cxx" > CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMultiThreader.cxx -o CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMultiThreader.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o.requires:
 
@@ -490,17 +490,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMutexLock.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMutexLock.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMutexLock.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMutexLock.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMutexLock.cxx > CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMutexLock.cxx" > CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMutexLock.cxx -o CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMutexLock.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o.requires:
 
@@ -514,17 +514,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o.provides.build: Source/CMa
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlOSUtil.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlOSUtil.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlOSUtil.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlOSUtil.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlOSUtil.cxx > CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlOSUtil.cxx" > CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlOSUtil.cxx -o CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlOSUtil.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o.requires:
 
@@ -538,17 +538,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o.provides.build: Source/CMakeF
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObject.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObject.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObject.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObject.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObject.cxx > CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObject.cxx" > CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObject.cxx -o CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObject.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o.requires:
 
@@ -562,17 +562,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o.provides.build: Source/CMakeF
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObjectFactoryBase.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObjectFactoryBase.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObjectFactoryBase.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObjectFactoryBase.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObjectFactoryBase.cxx > CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObjectFactoryBase.cxx" > CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlObjectFactoryBase.cxx -o CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlObjectFactoryBase.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o.requires:
 
@@ -586,17 +586,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPositionMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPositionMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPositionMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPositionMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPositionMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPositionMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPositionMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPositionMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o.requires:
 
@@ -610,17 +610,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o.provides.build: Sour
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlServerSocket.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlServerSocket.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlServerSocket.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlServerSocket.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlServerSocket.cxx > CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlServerSocket.cxx" > CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlServerSocket.cxx -o CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlServerSocket.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o.requires:
 
@@ -634,17 +634,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSessionManager.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSessionManager.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSessionManager.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSessionManager.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSessionManager.cxx > CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSessionManager.cxx" > CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSessionManager.cxx -o CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSessionManager.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o.requires:
 
@@ -658,17 +658,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx > CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx" > CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx -o CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSimpleFastMutexLock.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o.requires:
 
@@ -682,17 +682,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o.provides.build: 
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSocket.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSocket.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSocket.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSocket.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSocket.cxx > CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSocket.cxx" > CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSocket.cxx -o CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSocket.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o.requires:
 
@@ -706,17 +706,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o.provides.build: Source/CMakeF
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStatusMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStatusMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStatusMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStatusMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStatusMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStatusMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStatusMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStatusMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o.requires:
 
@@ -730,17 +730,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTimeStamp.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTimeStamp.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTimeStamp.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTimeStamp.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTimeStamp.cxx > CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTimeStamp.cxx" > CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTimeStamp.cxx -o CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTimeStamp.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o.requires:
 
@@ -754,17 +754,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o.provides.build: Source/CMa
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTransformMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTransformMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTransformMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTransformMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTransformMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTransformMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTransformMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTransformMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o.requires:
 
@@ -778,17 +778,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o.provides.build: Sou
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_colortable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_colortable.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_colortable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_colortable.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_colortable.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_colortable.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_colortable.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_colortable.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o.requires:
 
@@ -802,17 +802,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o.provides.build: S
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_imgmeta.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o.requires:
 
@@ -826,17 +826,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o.provides.build: Sour
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_lbmeta.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o.requires:
 
@@ -850,17 +850,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_point.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_point.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_point.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_point.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_point.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_point.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_point.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_point.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o.requires:
 
@@ -874,17 +874,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_tdata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_tdata.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_tdata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_tdata.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_tdata.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_tdata.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_tdata.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_tdata.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o.requires:
 
@@ -898,17 +898,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtdata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtdata.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtdata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtdata.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtdata.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtdata.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtdata.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtdata.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o.requires:
 
@@ -922,17 +922,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_trajectory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_trajectory.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_trajectory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_trajectory.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_trajectory.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_trajectory.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_trajectory.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_trajectory.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o.requires:
 
@@ -946,17 +946,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o.provides.build: S
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_unit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_unit.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_unit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_unit.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_unit.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_unit.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_unit.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_unit.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o.requires:
 
@@ -970,17 +970,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_sensor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_sensor.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_sensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_sensor.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_sensor.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_sensor.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_sensor.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_sensor.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o.requires:
 
@@ -994,17 +994,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_string.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_string.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_string.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_string.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_string.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_string.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o.requires:
 
@@ -1018,17 +1018,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_ndarray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_ndarray.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_ndarray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_ndarray.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_ndarray.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_ndarray.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_ndarray.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_ndarray.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o.requires:
 
@@ -1042,17 +1042,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o.provides.build: Sour
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_bind.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_bind.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_bind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_bind.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_bind.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_bind.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_bind.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_bind.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o.requires:
 
@@ -1066,17 +1066,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtrans.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtrans.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtrans.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtrans.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtrans.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtrans.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtrans.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o.requires:
 
@@ -1090,17 +1090,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_polydata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_polydata.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_polydata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_polydata.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_polydata.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_polydata.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_polydata.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_polydata.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o.requires:
 
@@ -1114,17 +1114,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o.provides.build: Sou
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlColorTableMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlColorTableMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlColorTableMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlColorTableMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlColorTableMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlColorTableMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlColorTableMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlColorTableMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o.requires:
 
@@ -1138,17 +1138,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMetaMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMetaMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMetaMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMetaMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMetaMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMetaMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlImageMetaMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlImageMetaMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o.requires:
 
@@ -1162,17 +1162,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o.provides.build: Sou
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLabelMetaMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLabelMetaMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLabelMetaMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLabelMetaMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLabelMetaMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLabelMetaMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlLabelMetaMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlLabelMetaMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o.requires:
 
@@ -1186,17 +1186,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o.provides.build: Sou
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPointMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPointMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPointMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPointMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPointMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPointMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPointMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPointMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o.requires:
 
@@ -1210,17 +1210,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrackingDataMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrackingDataMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrackingDataMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrackingDataMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrackingDataMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrackingDataMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrackingDataMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrackingDataMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o.requires:
 
@@ -1234,17 +1234,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o.provides.build: 
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPolyDataMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPolyDataMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPolyDataMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPolyDataMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPolyDataMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPolyDataMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlPolyDataMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlPolyDataMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o.requires:
 
@@ -1258,17 +1258,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o.provides.build: Sour
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o.requires:
 
@@ -1282,17 +1282,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o.provid
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrajectoryMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrajectoryMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrajectoryMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrajectoryMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrajectoryMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrajectoryMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlTrajectoryMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlTrajectoryMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o.requires:
 
@@ -1306,17 +1306,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStringMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStringMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStringMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStringMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStringMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStringMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlStringMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlStringMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o.requires:
 
@@ -1330,17 +1330,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUnit.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUnit.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUnit.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUnit.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUnit.cxx > CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUnit.cxx" > CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUnit.cxx -o CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUnit.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o.requires:
 
@@ -1354,17 +1354,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o.provides.build: Source/CMakeFil
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSensorMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSensorMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSensorMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSensorMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSensorMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSensorMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlSensorMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlSensorMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o.requires:
 
@@ -1378,17 +1378,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlBindMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlBindMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlBindMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlBindMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlBindMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlBindMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlBindMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlBindMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o.requires:
 
@@ -1402,17 +1402,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o.provides.build: Source/C
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlNDArrayMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlNDArrayMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlNDArrayMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlNDArrayMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlNDArrayMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlNDArrayMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlNDArrayMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlNDArrayMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o.requires:
 
@@ -1426,17 +1426,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCommandMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCommandMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCommandMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCommandMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCommandMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCommandMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlCommandMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlCommandMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o.requires:
 
@@ -1450,17 +1450,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o.provides.build: Sourc
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQueryMessage.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQueryMessage.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQueryMessage.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQueryMessage.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQueryMessage.cxx > CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQueryMessage.cxx" > CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlQueryMessage.cxx -o CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlQueryMessage.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o.requires:
 
@@ -1474,17 +1474,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o.provides.build: Source/
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_command.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_command.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_command.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_command.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_command.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_command.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o.requires:
 
@@ -1498,17 +1498,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o.provides.build: Sour
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_query.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o   -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_query.c
+Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_query.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o   -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_query.c"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_query.c > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_query.c" > CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_query.c -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_query.c" -o CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o.requires:
 
@@ -1522,17 +1522,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx > CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx" > CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx -o CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlMessageRTPWrapper.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o.requires:
 
@@ -1546,17 +1546,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o.provides.build: So
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlGeneralSocket.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlGeneralSocket.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlGeneralSocket.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlGeneralSocket.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlGeneralSocket.cxx > CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlGeneralSocket.cxx" > CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlGeneralSocket.cxx -o CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlGeneralSocket.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o.requires:
 
@@ -1570,17 +1570,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o.provides.build: Source
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPClientSocket.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPClientSocket.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPClientSocket.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPClientSocket.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPClientSocket.cxx > CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPClientSocket.cxx" > CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPClientSocket.cxx -o CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPClientSocket.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o.requires:
 
@@ -1594,17 +1594,17 @@ Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o.provides.build: Sour
 
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o: Source/CMakeFiles/OpenIGTLink.dir/flags.make
-Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPServerSocket.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPServerSocket.cxx
+Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPServerSocket.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPServerSocket.cxx"
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPServerSocket.cxx > CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPServerSocket.cxx" > CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.i
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlUDPServerSocket.cxx -o CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlUDPServerSocket.cxx" -o CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.s
 
 Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o.requires:
 
@@ -1755,9 +1755,9 @@ bin/libOpenIGTLink.so.3.1.0: Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSock
 bin/libOpenIGTLink.so.3.1.0: Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o
 bin/libOpenIGTLink.so.3.1.0: Source/CMakeFiles/OpenIGTLink.dir/build.make
 bin/libOpenIGTLink.so.3.1.0: Source/CMakeFiles/OpenIGTLink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX shared library ../bin/libOpenIGTLink.so"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenIGTLink.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && $(CMAKE_COMMAND) -E cmake_symlink_library ../bin/libOpenIGTLink.so.3.1.0 ../bin/libOpenIGTLink.so.3 ../bin/libOpenIGTLink.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX shared library ../bin/libOpenIGTLink.so"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenIGTLink.dir/link.txt --verbose=$(VERBOSE)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && $(CMAKE_COMMAND) -E cmake_symlink_library ../bin/libOpenIGTLink.so.3.1.0 ../bin/libOpenIGTLink.so.3 ../bin/libOpenIGTLink.so
 
 bin/libOpenIGTLink.so.3: bin/libOpenIGTLink.so.3.1.0
 	@$(CMAKE_COMMAND) -E touch_nocreate bin/libOpenIGTLink.so.3
@@ -1839,10 +1839,10 @@ Source/CMakeFiles/OpenIGTLink.dir/requires: Source/CMakeFiles/OpenIGTLink.dir/ig
 .PHONY : Source/CMakeFiles/OpenIGTLink.dir/requires
 
 Source/CMakeFiles/OpenIGTLink.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source && $(CMAKE_COMMAND) -P CMakeFiles/OpenIGTLink.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" && $(CMAKE_COMMAND) -P CMakeFiles/OpenIGTLink.dir/cmake_clean.cmake
 .PHONY : Source/CMakeFiles/OpenIGTLink.dir/clean
 
 Source/CMakeFiles/OpenIGTLink.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/CMakeFiles/OpenIGTLink.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/CMakeFiles/OpenIGTLink.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Source/CMakeFiles/OpenIGTLink.dir/depend
 

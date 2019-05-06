@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Trajectory/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Trajectory/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/rule
 .PHONY : Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ TrajectoryServer: Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/rule
 
 # fast build rule for target.
 TrajectoryServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build
 .PHONY : TrajectoryServer/fast
 
 # Convenience name for target.
 Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/rule
 .PHONY : Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/rule
 
 # Convenience name for target.
@@ -183,37 +183,37 @@ TrajectoryClient: Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/rule
 
 # fast build rule for target.
 TrajectoryClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build
 .PHONY : TrajectoryClient/fast
 
 # target to build an object file
 TrajectoryClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/TrajectoryClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/TrajectoryClient.o
 .PHONY : TrajectoryClient.o
 
 # target to preprocess a source file
 TrajectoryClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/TrajectoryClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/TrajectoryClient.i
 .PHONY : TrajectoryClient.i
 
 # target to generate assembly for a file
 TrajectoryClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/TrajectoryClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryClient.dir/TrajectoryClient.s
 .PHONY : TrajectoryClient.s
 
 # target to build an object file
 TrajectoryServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/TrajectoryServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/TrajectoryServer.o
 .PHONY : TrajectoryServer.o
 
 # target to preprocess a source file
 TrajectoryServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/TrajectoryServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/TrajectoryServer.i
 .PHONY : TrajectoryServer.i
 
 # target to generate assembly for a file
 TrajectoryServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/TrajectoryServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/build.make Examples/Trajectory/CMakeFiles/TrajectoryServer.dir/TrajectoryServer.s
 .PHONY : TrajectoryServer.s
 
 # Help Target
@@ -247,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

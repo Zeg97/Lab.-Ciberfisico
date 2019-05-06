@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
-BuildDirectory: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+SourceDirectory: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink
+BuildDirectory: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink"
+ConfigureCommand: "/usr/bin/cmake" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -73,7 +73,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 7.3.0
+CompilerVersion: 7.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

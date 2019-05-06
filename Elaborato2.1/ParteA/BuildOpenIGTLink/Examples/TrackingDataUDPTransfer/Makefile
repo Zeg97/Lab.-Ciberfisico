@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/TrackingDataUDPTransfer/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/rule
 .PHONY : Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ TrackingDataServerUDPTransfer: Examples/TrackingDataUDPTransfer/CMakeFiles/Track
 
 # fast build rule for target.
 TrackingDataServerUDPTransfer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build
 .PHONY : TrackingDataServerUDPTransfer/fast
 
 # Convenience name for target.
 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/rule
 .PHONY : Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/rule
 
 # Convenience name for target.
@@ -183,37 +183,37 @@ TrackingDataClientUDPTransfer: Examples/TrackingDataUDPTransfer/CMakeFiles/Track
 
 # fast build rule for target.
 TrackingDataClientUDPTransfer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build
 .PHONY : TrackingDataClientUDPTransfer/fast
 
 # target to build an object file
 TrackingDataClientUDPTransfer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.o
 .PHONY : TrackingDataClientUDPTransfer.o
 
 # target to preprocess a source file
 TrackingDataClientUDPTransfer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.i
 .PHONY : TrackingDataClientUDPTransfer.i
 
 # target to generate assembly for a file
 TrackingDataClientUDPTransfer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataClientUDPTransfer.dir/TrackingDataClientUDPTransfer.s
 .PHONY : TrackingDataClientUDPTransfer.s
 
 # target to build an object file
 TrackingDataServerUDPTransfer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/TrackingDataServerUDPTransfer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/TrackingDataServerUDPTransfer.o
 .PHONY : TrackingDataServerUDPTransfer.o
 
 # target to preprocess a source file
 TrackingDataServerUDPTransfer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/TrackingDataServerUDPTransfer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/TrackingDataServerUDPTransfer.i
 .PHONY : TrackingDataServerUDPTransfer.i
 
 # target to generate assembly for a file
 TrackingDataServerUDPTransfer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/TrackingDataServerUDPTransfer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/build.make Examples/TrackingDataUDPTransfer/CMakeFiles/TrackingDataServerUDPTransfer.dir/TrackingDataServerUDPTransfer.s
 .PHONY : TrackingDataServerUDPTransfer.s
 
 # Help Target
@@ -247,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Point/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Point/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Point/CMakeFiles/PointServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointServer.dir/rule
 .PHONY : Examples/Point/CMakeFiles/PointServer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ PointServer: Examples/Point/CMakeFiles/PointServer.dir/rule
 
 # fast build rule for target.
 PointServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/build
 .PHONY : PointServer/fast
 
 # Convenience name for target.
 Examples/Point/CMakeFiles/PointClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointClient.dir/rule
 .PHONY : Examples/Point/CMakeFiles/PointClient.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ PointClient: Examples/Point/CMakeFiles/PointClient.dir/rule
 
 # fast build rule for target.
 PointClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/build
 .PHONY : PointClient/fast
 
 # Convenience name for target.
 Examples/Point/CMakeFiles/PointListServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointListServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointListServer.dir/rule
 .PHONY : Examples/Point/CMakeFiles/PointListServer.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ PointListServer: Examples/Point/CMakeFiles/PointListServer.dir/rule
 
 # fast build rule for target.
 PointListServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/build
 .PHONY : PointListServer/fast
 
 # Convenience name for target.
 Examples/Point/CMakeFiles/PointClient3.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointClient3.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointClient3.dir/rule
 .PHONY : Examples/Point/CMakeFiles/PointClient3.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ PointClient3: Examples/Point/CMakeFiles/PointClient3.dir/rule
 
 # fast build rule for target.
 PointClient3/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/build
 .PHONY : PointClient3/fast
 
 # Convenience name for target.
 Examples/Point/CMakeFiles/PointServer3.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointServer3.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Point/CMakeFiles/PointServer3.dir/rule
 .PHONY : Examples/Point/CMakeFiles/PointServer3.dir/rule
 
 # Convenience name for target.
@@ -228,82 +228,82 @@ PointServer3: Examples/Point/CMakeFiles/PointServer3.dir/rule
 
 # fast build rule for target.
 PointServer3/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/build
 .PHONY : PointServer3/fast
 
 # target to build an object file
 PointClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/PointClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/PointClient.o
 .PHONY : PointClient.o
 
 # target to preprocess a source file
 PointClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/PointClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/PointClient.i
 .PHONY : PointClient.i
 
 # target to generate assembly for a file
 PointClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/PointClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient.dir/build.make Examples/Point/CMakeFiles/PointClient.dir/PointClient.s
 .PHONY : PointClient.s
 
 # target to build an object file
 PointClient3.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/PointClient3.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/PointClient3.o
 .PHONY : PointClient3.o
 
 # target to preprocess a source file
 PointClient3.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/PointClient3.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/PointClient3.i
 .PHONY : PointClient3.i
 
 # target to generate assembly for a file
 PointClient3.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/PointClient3.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointClient3.dir/build.make Examples/Point/CMakeFiles/PointClient3.dir/PointClient3.s
 .PHONY : PointClient3.s
 
 # target to build an object file
 PointListServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/PointListServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/PointListServer.o
 .PHONY : PointListServer.o
 
 # target to preprocess a source file
 PointListServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/PointListServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/PointListServer.i
 .PHONY : PointListServer.i
 
 # target to generate assembly for a file
 PointListServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/PointListServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointListServer.dir/build.make Examples/Point/CMakeFiles/PointListServer.dir/PointListServer.s
 .PHONY : PointListServer.s
 
 # target to build an object file
 PointServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/PointServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/PointServer.o
 .PHONY : PointServer.o
 
 # target to preprocess a source file
 PointServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/PointServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/PointServer.i
 .PHONY : PointServer.i
 
 # target to generate assembly for a file
 PointServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/PointServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer.dir/build.make Examples/Point/CMakeFiles/PointServer.dir/PointServer.s
 .PHONY : PointServer.s
 
 # target to build an object file
 PointServer3.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/PointServer3.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/PointServer3.o
 .PHONY : PointServer3.o
 
 # target to preprocess a source file
 PointServer3.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/PointServer3.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/PointServer3.i
 .PHONY : PointServer3.i
 
 # target to generate assembly for a file
 PointServer3.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/PointServer3.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Point/CMakeFiles/PointServer3.dir/build.make Examples/Point/CMakeFiles/PointServer3.dir/PointServer3.s
 .PHONY : PointServer3.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

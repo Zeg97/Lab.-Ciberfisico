@@ -7,11 +7,11 @@ C_FLAGS = -fPIC
 
 C_DEFINES = -DOpenIGTLink_EXPORTS
 
-C_INCLUDES = -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/igtlutil 
+C_INCLUDES = -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/igtlutil" 
 
 CXX_FLAGS = -fPIC  
 
 CXX_DEFINES = -DOpenIGTLink_EXPORTS
 
-CXX_INCLUDES = -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil -I/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/igtlutil 
+CXX_INCLUDES = -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil" -I"/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/igtlutil" 
 

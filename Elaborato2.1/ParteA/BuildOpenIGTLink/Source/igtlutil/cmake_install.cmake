@@ -1,4 +1,4 @@
-# Install script for directory: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil
+# Install script for directory: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,28 +39,28 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/igtl/igtlutil" TYPE FILE FILES
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_header.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_image.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_position.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_transform.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_types.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_util.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_capability.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_colortable.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_imgmeta.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_lbmeta.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_point.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_tdata.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtdata.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_trajectory.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_unit.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_sensor.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_string.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_ndarray.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_bind.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_qtrans.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_polydata.h"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil/igtl_command.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_header.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_image.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_position.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_transform.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_types.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_util.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_capability.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_colortable.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_imgmeta.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_lbmeta.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_point.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_tdata.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtdata.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_trajectory.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_unit.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_sensor.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_string.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_ndarray.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_bind.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_qtrans.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_polydata.h"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil/igtl_command.h"
     )
 endif()
 
@@ -78,9 +78,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimeLibrariesx" OR NOT CMAKE_INS
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/igtl" TYPE SHARED_LIBRARY FILES
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/bin/libigtlutil.so.3.1.0"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/bin/libigtlutil.so.3"
-    "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/bin/libigtlutil.so"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/bin/libigtlutil.so.3.1.0"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/bin/libigtlutil.so.3"
+    "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/bin/libigtlutil.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igtl/libigtlutil.so.3.1.0"

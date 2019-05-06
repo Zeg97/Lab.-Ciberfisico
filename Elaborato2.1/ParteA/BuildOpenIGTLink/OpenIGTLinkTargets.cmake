@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(OpenIGTLink SHARED IMPORTED)
 
 set_target_properties(OpenIGTLink PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink;/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source;/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source;/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil;/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/igtlutil"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink;/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source;/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source;/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil;/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/igtlutil"
 )
 
 # Import target "OpenIGTLink" for configuration ""
 set_property(TARGET OpenIGTLink APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(OpenIGTLink PROPERTIES
   IMPORTED_LINK_INTERFACE_LIBRARIES_NOCONFIG "m;pthread"
-  IMPORTED_LOCATION_NOCONFIG "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/bin/libOpenIGTLink.so.3.1.0"
+  IMPORTED_LOCATION_NOCONFIG "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/bin/libOpenIGTLink.so.3.1.0"
   IMPORTED_SONAME_NOCONFIG "libOpenIGTLink.so.3"
   )
 

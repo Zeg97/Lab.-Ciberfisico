@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/Thread/CMakeFiles/SingleMethodExecute.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/Thread/CMakeFiles/SingleMethodExecute.dir/progress.make
 include Examples/Thread/CMakeFiles/SingleMethodExecute.dir/flags.make
 
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o: Examples/Thread/CMakeFiles/SingleMethodExecute.dir/flags.make
-Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx
+Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx"
 
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx > CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx" > CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.i
 
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx -o CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Thread/SingleMethodExecute.cxx" -o CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.s
 
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/SingleMethodExecute.o.requires:
 
@@ -92,8 +92,8 @@ bin/SingleMethodExecute: Examples/Thread/CMakeFiles/SingleMethodExecute.dir/Sing
 bin/SingleMethodExecute: Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build.make
 bin/SingleMethodExecute: bin/libOpenIGTLink.so.3.1.0
 bin/SingleMethodExecute: Examples/Thread/CMakeFiles/SingleMethodExecute.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/SingleMethodExecute"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SingleMethodExecute.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/SingleMethodExecute"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SingleMethodExecute.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/build: bin/SingleMethodExecute
@@ -105,10 +105,10 @@ Examples/Thread/CMakeFiles/SingleMethodExecute.dir/requires: Examples/Thread/CMa
 .PHONY : Examples/Thread/CMakeFiles/SingleMethodExecute.dir/requires
 
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread && $(CMAKE_COMMAND) -P CMakeFiles/SingleMethodExecute.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread" && $(CMAKE_COMMAND) -P CMakeFiles/SingleMethodExecute.dir/cmake_clean.cmake
 .PHONY : Examples/Thread/CMakeFiles/SingleMethodExecute.dir/clean
 
 Examples/Thread/CMakeFiles/SingleMethodExecute.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/Thread /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Thread/CMakeFiles/SingleMethodExecute.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/Thread" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Thread/CMakeFiles/SingleMethodExecute.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/Thread/CMakeFiles/SingleMethodExecute.dir/depend
 

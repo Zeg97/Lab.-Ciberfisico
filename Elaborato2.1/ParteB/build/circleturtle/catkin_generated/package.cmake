@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "circleturtle")
 set(circleturtle_VERSION "0.0.0")
-set(circleturtle_MAINTAINER "matteo <matteo@todo.todo>")
+set(circleturtle_MAINTAINER "matteo <matteo.zeggiotti@studenti.univr.it>")
 set(circleturtle_PACKAGE_FORMAT "2")
 set(circleturtle_BUILD_DEPENDS "turtlesim")
 set(circleturtle_BUILD_EXPORT_DEPENDS "turtlesim")

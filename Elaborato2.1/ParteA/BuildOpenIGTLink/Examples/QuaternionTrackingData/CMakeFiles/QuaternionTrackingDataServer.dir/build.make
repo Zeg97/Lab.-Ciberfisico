@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 # Include any dependencies generated for this target.
 include Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/depend.make
@@ -58,17 +58,17 @@ include Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.
 include Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/flags.make
 
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o: Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/flags.make
-Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o -c /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx
+Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o: /home/matteo/Scrivania/Lab.\ Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o -c "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx"
 
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.i"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx > CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx" > CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.i
 
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.s"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx -o CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.cxx" -o CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.s
 
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o.requires:
 
@@ -92,8 +92,8 @@ bin/QuaternionTrackingDataServer: Examples/QuaternionTrackingData/CMakeFiles/Qua
 bin/QuaternionTrackingDataServer: Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make
 bin/QuaternionTrackingDataServer: bin/libOpenIGTLink.so.3.1.0
 bin/QuaternionTrackingDataServer: Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/QuaternionTrackingDataServer"
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QuaternionTrackingDataServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/QuaternionTrackingDataServer"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QuaternionTrackingDataServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build: bin/QuaternionTrackingDataServer
@@ -105,10 +105,10 @@ Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/requ
 .PHONY : Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/requires
 
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData && $(CMAKE_COMMAND) -P CMakeFiles/QuaternionTrackingDataServer.dir/cmake_clean.cmake
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData" && $(CMAKE_COMMAND) -P CMakeFiles/QuaternionTrackingDataServer.dir/cmake_clean.cmake
 .PHONY : Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/clean
 
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/QuaternionTrackingData /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/QuaternionTrackingData" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/depend
 

@@ -49,7 +49,7 @@
 #define OpenIGTLink_PROTOCOL_VERSION_3 3
 #define OpenIGTLink_PROTOCOL_VERSION 3
 #define OpenIGTLink_HEADER_VERSION 2
-#define OpenIGTLink_SOURCE_ROOTDIR "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink"
+#define OpenIGTLink_SOURCE_ROOTDIR "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 #endif /*__IGTL_CONFIGURE_H*/
 
 

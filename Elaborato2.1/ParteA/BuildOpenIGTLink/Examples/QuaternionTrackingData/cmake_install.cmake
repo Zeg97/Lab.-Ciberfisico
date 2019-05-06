@@ -1,4 +1,4 @@
-# Install script for directory: /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Examples/QuaternionTrackingData
+# Install script for directory: /home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Examples/QuaternionTrackingData
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

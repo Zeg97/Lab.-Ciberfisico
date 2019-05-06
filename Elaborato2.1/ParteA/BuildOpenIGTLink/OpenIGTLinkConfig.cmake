@@ -10,14 +10,14 @@
 # it is highly probable that it will cause more harm than being useful. 
 # Use OpenIGTLink_INCLUDE_DIRS instead, since OpenIGTLink_SOURCE_DIR may point to non-existent directory
 IF(NOT OpenIGTLink_LEGACY_REMOVE)
-  SET(OpenIGTLink_SOURCE_DIR "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink")
+  SET(OpenIGTLink_SOURCE_DIR "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink")
 ENDIF(NOT OpenIGTLink_LEGACY_REMOVE)
 
 # The OpenIGTLink include file directories.
 SET(OpenIGTLink_INCLUDE_DIRS "")
 
 # The OpenIGTLink library directories.
-SET(OpenIGTLink_LIBRARY_DIRS "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/bin")
+SET(OpenIGTLink_LIBRARY_DIRS "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/bin")
 
 # The C and C++ flags added by OpenIGTLink to the cmake-configured flags.
 SET(OpenIGTLink_REQUIRED_C_FLAGS " -w -fno-tree-vectorize")
@@ -33,10 +33,10 @@ SET(OpenIGTLink_VERSION_PATCH "0")
 SET(OpenIGTLink_PROTOCOL_VERSION "3")
 
 # The location of the UseOpenIGTLink.cmake file.
-SET(OpenIGTLink_USE_FILE "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/UseOpenIGTLink.cmake")
+SET(OpenIGTLink_USE_FILE "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/UseOpenIGTLink.cmake")
 
 # The build settings file.
-SET(OpenIGTLink_BUILD_SETTINGS_FILE "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/OpenIGTLinkBuildSettings.cmake")
+SET(OpenIGTLink_BUILD_SETTINGS_FILE "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/OpenIGTLinkBuildSettings.cmake")
 
 # Whether OpenIGTLink was built with shared libraries.
 SET(OpenIGTLink_BUILD_SHARED "ON")
@@ -63,5 +63,5 @@ SET(OpenIGTLink_CableSwig_DIR "")
 SET(OpenIGTLink_LIBRARIES OpenIGTLink)
 
 # The OpenIGTLink library targets.
-SET(OpenIGTLink_LIBRARY_TARGETS_FILE "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/OpenIGTLinkTargets.cmake")
+SET(OpenIGTLink_LIBRARY_TARGETS_FILE "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/OpenIGTLinkTargets.cmake")
 include(${OpenIGTLink_LIBRARY_TARGETS_FILE})

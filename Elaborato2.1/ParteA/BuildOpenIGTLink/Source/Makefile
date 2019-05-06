@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Source/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Source/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Source/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Source/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Source/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Source/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Source/CMakeFiles/OpenIGTLink.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/OpenIGTLink.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Source/CMakeFiles/OpenIGTLink.dir/rule
 .PHONY : Source/CMakeFiles/OpenIGTLink.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ OpenIGTLink: Source/CMakeFiles/OpenIGTLink.dir/rule
 
 # fast build rule for target.
 OpenIGTLink/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/build
 .PHONY : OpenIGTLink/fast
 
 igtlBindMessage.o: igtlBindMessage.cxx.o
@@ -177,7 +177,7 @@ igtlBindMessage.o: igtlBindMessage.cxx.o
 
 # target to build an object file
 igtlBindMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.o
 .PHONY : igtlBindMessage.cxx.o
 
 igtlBindMessage.i: igtlBindMessage.cxx.i
@@ -186,7 +186,7 @@ igtlBindMessage.i: igtlBindMessage.cxx.i
 
 # target to preprocess a source file
 igtlBindMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.i
 .PHONY : igtlBindMessage.cxx.i
 
 igtlBindMessage.s: igtlBindMessage.cxx.s
@@ -195,7 +195,7 @@ igtlBindMessage.s: igtlBindMessage.cxx.s
 
 # target to generate assembly for a file
 igtlBindMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlBindMessage.cxx.s
 .PHONY : igtlBindMessage.cxx.s
 
 igtlCapabilityMessage.o: igtlCapabilityMessage.cxx.o
@@ -204,7 +204,7 @@ igtlCapabilityMessage.o: igtlCapabilityMessage.cxx.o
 
 # target to build an object file
 igtlCapabilityMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.o
 .PHONY : igtlCapabilityMessage.cxx.o
 
 igtlCapabilityMessage.i: igtlCapabilityMessage.cxx.i
@@ -213,7 +213,7 @@ igtlCapabilityMessage.i: igtlCapabilityMessage.cxx.i
 
 # target to preprocess a source file
 igtlCapabilityMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.i
 .PHONY : igtlCapabilityMessage.cxx.i
 
 igtlCapabilityMessage.s: igtlCapabilityMessage.cxx.s
@@ -222,7 +222,7 @@ igtlCapabilityMessage.s: igtlCapabilityMessage.cxx.s
 
 # target to generate assembly for a file
 igtlCapabilityMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCapabilityMessage.cxx.s
 .PHONY : igtlCapabilityMessage.cxx.s
 
 igtlClientSocket.o: igtlClientSocket.cxx.o
@@ -231,7 +231,7 @@ igtlClientSocket.o: igtlClientSocket.cxx.o
 
 # target to build an object file
 igtlClientSocket.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.o
 .PHONY : igtlClientSocket.cxx.o
 
 igtlClientSocket.i: igtlClientSocket.cxx.i
@@ -240,7 +240,7 @@ igtlClientSocket.i: igtlClientSocket.cxx.i
 
 # target to preprocess a source file
 igtlClientSocket.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.i
 .PHONY : igtlClientSocket.cxx.i
 
 igtlClientSocket.s: igtlClientSocket.cxx.s
@@ -249,7 +249,7 @@ igtlClientSocket.s: igtlClientSocket.cxx.s
 
 # target to generate assembly for a file
 igtlClientSocket.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlClientSocket.cxx.s
 .PHONY : igtlClientSocket.cxx.s
 
 igtlColorTableMessage.o: igtlColorTableMessage.cxx.o
@@ -258,7 +258,7 @@ igtlColorTableMessage.o: igtlColorTableMessage.cxx.o
 
 # target to build an object file
 igtlColorTableMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.o
 .PHONY : igtlColorTableMessage.cxx.o
 
 igtlColorTableMessage.i: igtlColorTableMessage.cxx.i
@@ -267,7 +267,7 @@ igtlColorTableMessage.i: igtlColorTableMessage.cxx.i
 
 # target to preprocess a source file
 igtlColorTableMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.i
 .PHONY : igtlColorTableMessage.cxx.i
 
 igtlColorTableMessage.s: igtlColorTableMessage.cxx.s
@@ -276,7 +276,7 @@ igtlColorTableMessage.s: igtlColorTableMessage.cxx.s
 
 # target to generate assembly for a file
 igtlColorTableMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlColorTableMessage.cxx.s
 .PHONY : igtlColorTableMessage.cxx.s
 
 igtlCommandMessage.o: igtlCommandMessage.cxx.o
@@ -285,7 +285,7 @@ igtlCommandMessage.o: igtlCommandMessage.cxx.o
 
 # target to build an object file
 igtlCommandMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.o
 .PHONY : igtlCommandMessage.cxx.o
 
 igtlCommandMessage.i: igtlCommandMessage.cxx.i
@@ -294,7 +294,7 @@ igtlCommandMessage.i: igtlCommandMessage.cxx.i
 
 # target to preprocess a source file
 igtlCommandMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.i
 .PHONY : igtlCommandMessage.cxx.i
 
 igtlCommandMessage.s: igtlCommandMessage.cxx.s
@@ -303,7 +303,7 @@ igtlCommandMessage.s: igtlCommandMessage.cxx.s
 
 # target to generate assembly for a file
 igtlCommandMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlCommandMessage.cxx.s
 .PHONY : igtlCommandMessage.cxx.s
 
 igtlConditionVariable.o: igtlConditionVariable.cxx.o
@@ -312,7 +312,7 @@ igtlConditionVariable.o: igtlConditionVariable.cxx.o
 
 # target to build an object file
 igtlConditionVariable.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.o
 .PHONY : igtlConditionVariable.cxx.o
 
 igtlConditionVariable.i: igtlConditionVariable.cxx.i
@@ -321,7 +321,7 @@ igtlConditionVariable.i: igtlConditionVariable.cxx.i
 
 # target to preprocess a source file
 igtlConditionVariable.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.i
 .PHONY : igtlConditionVariable.cxx.i
 
 igtlConditionVariable.s: igtlConditionVariable.cxx.s
@@ -330,7 +330,7 @@ igtlConditionVariable.s: igtlConditionVariable.cxx.s
 
 # target to generate assembly for a file
 igtlConditionVariable.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlConditionVariable.cxx.s
 .PHONY : igtlConditionVariable.cxx.s
 
 igtlFastMutexLock.o: igtlFastMutexLock.cxx.o
@@ -339,7 +339,7 @@ igtlFastMutexLock.o: igtlFastMutexLock.cxx.o
 
 # target to build an object file
 igtlFastMutexLock.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.o
 .PHONY : igtlFastMutexLock.cxx.o
 
 igtlFastMutexLock.i: igtlFastMutexLock.cxx.i
@@ -348,7 +348,7 @@ igtlFastMutexLock.i: igtlFastMutexLock.cxx.i
 
 # target to preprocess a source file
 igtlFastMutexLock.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.i
 .PHONY : igtlFastMutexLock.cxx.i
 
 igtlFastMutexLock.s: igtlFastMutexLock.cxx.s
@@ -357,7 +357,7 @@ igtlFastMutexLock.s: igtlFastMutexLock.cxx.s
 
 # target to generate assembly for a file
 igtlFastMutexLock.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlFastMutexLock.cxx.s
 .PHONY : igtlFastMutexLock.cxx.s
 
 igtlGeneralSocket.o: igtlGeneralSocket.cxx.o
@@ -366,7 +366,7 @@ igtlGeneralSocket.o: igtlGeneralSocket.cxx.o
 
 # target to build an object file
 igtlGeneralSocket.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.o
 .PHONY : igtlGeneralSocket.cxx.o
 
 igtlGeneralSocket.i: igtlGeneralSocket.cxx.i
@@ -375,7 +375,7 @@ igtlGeneralSocket.i: igtlGeneralSocket.cxx.i
 
 # target to preprocess a source file
 igtlGeneralSocket.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.i
 .PHONY : igtlGeneralSocket.cxx.i
 
 igtlGeneralSocket.s: igtlGeneralSocket.cxx.s
@@ -384,7 +384,7 @@ igtlGeneralSocket.s: igtlGeneralSocket.cxx.s
 
 # target to generate assembly for a file
 igtlGeneralSocket.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlGeneralSocket.cxx.s
 .PHONY : igtlGeneralSocket.cxx.s
 
 igtlImageMessage.o: igtlImageMessage.cxx.o
@@ -393,7 +393,7 @@ igtlImageMessage.o: igtlImageMessage.cxx.o
 
 # target to build an object file
 igtlImageMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.o
 .PHONY : igtlImageMessage.cxx.o
 
 igtlImageMessage.i: igtlImageMessage.cxx.i
@@ -402,7 +402,7 @@ igtlImageMessage.i: igtlImageMessage.cxx.i
 
 # target to preprocess a source file
 igtlImageMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.i
 .PHONY : igtlImageMessage.cxx.i
 
 igtlImageMessage.s: igtlImageMessage.cxx.s
@@ -411,7 +411,7 @@ igtlImageMessage.s: igtlImageMessage.cxx.s
 
 # target to generate assembly for a file
 igtlImageMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage.cxx.s
 .PHONY : igtlImageMessage.cxx.s
 
 igtlImageMessage2.o: igtlImageMessage2.cxx.o
@@ -420,7 +420,7 @@ igtlImageMessage2.o: igtlImageMessage2.cxx.o
 
 # target to build an object file
 igtlImageMessage2.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.o
 .PHONY : igtlImageMessage2.cxx.o
 
 igtlImageMessage2.i: igtlImageMessage2.cxx.i
@@ -429,7 +429,7 @@ igtlImageMessage2.i: igtlImageMessage2.cxx.i
 
 # target to preprocess a source file
 igtlImageMessage2.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.i
 .PHONY : igtlImageMessage2.cxx.i
 
 igtlImageMessage2.s: igtlImageMessage2.cxx.s
@@ -438,7 +438,7 @@ igtlImageMessage2.s: igtlImageMessage2.cxx.s
 
 # target to generate assembly for a file
 igtlImageMessage2.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMessage2.cxx.s
 .PHONY : igtlImageMessage2.cxx.s
 
 igtlImageMetaMessage.o: igtlImageMetaMessage.cxx.o
@@ -447,7 +447,7 @@ igtlImageMetaMessage.o: igtlImageMetaMessage.cxx.o
 
 # target to build an object file
 igtlImageMetaMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.o
 .PHONY : igtlImageMetaMessage.cxx.o
 
 igtlImageMetaMessage.i: igtlImageMetaMessage.cxx.i
@@ -456,7 +456,7 @@ igtlImageMetaMessage.i: igtlImageMetaMessage.cxx.i
 
 # target to preprocess a source file
 igtlImageMetaMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.i
 .PHONY : igtlImageMetaMessage.cxx.i
 
 igtlImageMetaMessage.s: igtlImageMetaMessage.cxx.s
@@ -465,7 +465,7 @@ igtlImageMetaMessage.s: igtlImageMetaMessage.cxx.s
 
 # target to generate assembly for a file
 igtlImageMetaMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlImageMetaMessage.cxx.s
 .PHONY : igtlImageMetaMessage.cxx.s
 
 igtlLabelMetaMessage.o: igtlLabelMetaMessage.cxx.o
@@ -474,7 +474,7 @@ igtlLabelMetaMessage.o: igtlLabelMetaMessage.cxx.o
 
 # target to build an object file
 igtlLabelMetaMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.o
 .PHONY : igtlLabelMetaMessage.cxx.o
 
 igtlLabelMetaMessage.i: igtlLabelMetaMessage.cxx.i
@@ -483,7 +483,7 @@ igtlLabelMetaMessage.i: igtlLabelMetaMessage.cxx.i
 
 # target to preprocess a source file
 igtlLabelMetaMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.i
 .PHONY : igtlLabelMetaMessage.cxx.i
 
 igtlLabelMetaMessage.s: igtlLabelMetaMessage.cxx.s
@@ -492,7 +492,7 @@ igtlLabelMetaMessage.s: igtlLabelMetaMessage.cxx.s
 
 # target to generate assembly for a file
 igtlLabelMetaMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLabelMetaMessage.cxx.s
 .PHONY : igtlLabelMetaMessage.cxx.s
 
 igtlLightObject.o: igtlLightObject.cxx.o
@@ -501,7 +501,7 @@ igtlLightObject.o: igtlLightObject.cxx.o
 
 # target to build an object file
 igtlLightObject.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.o
 .PHONY : igtlLightObject.cxx.o
 
 igtlLightObject.i: igtlLightObject.cxx.i
@@ -510,7 +510,7 @@ igtlLightObject.i: igtlLightObject.cxx.i
 
 # target to preprocess a source file
 igtlLightObject.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.i
 .PHONY : igtlLightObject.cxx.i
 
 igtlLightObject.s: igtlLightObject.cxx.s
@@ -519,7 +519,7 @@ igtlLightObject.s: igtlLightObject.cxx.s
 
 # target to generate assembly for a file
 igtlLightObject.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlLightObject.cxx.s
 .PHONY : igtlLightObject.cxx.s
 
 igtlMath.o: igtlMath.cxx.o
@@ -528,7 +528,7 @@ igtlMath.o: igtlMath.cxx.o
 
 # target to build an object file
 igtlMath.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.o
 .PHONY : igtlMath.cxx.o
 
 igtlMath.i: igtlMath.cxx.i
@@ -537,7 +537,7 @@ igtlMath.i: igtlMath.cxx.i
 
 # target to preprocess a source file
 igtlMath.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.i
 .PHONY : igtlMath.cxx.i
 
 igtlMath.s: igtlMath.cxx.s
@@ -546,7 +546,7 @@ igtlMath.s: igtlMath.cxx.s
 
 # target to generate assembly for a file
 igtlMath.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMath.cxx.s
 .PHONY : igtlMath.cxx.s
 
 igtlMessageBase.o: igtlMessageBase.cxx.o
@@ -555,7 +555,7 @@ igtlMessageBase.o: igtlMessageBase.cxx.o
 
 # target to build an object file
 igtlMessageBase.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.o
 .PHONY : igtlMessageBase.cxx.o
 
 igtlMessageBase.i: igtlMessageBase.cxx.i
@@ -564,7 +564,7 @@ igtlMessageBase.i: igtlMessageBase.cxx.i
 
 # target to preprocess a source file
 igtlMessageBase.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.i
 .PHONY : igtlMessageBase.cxx.i
 
 igtlMessageBase.s: igtlMessageBase.cxx.s
@@ -573,7 +573,7 @@ igtlMessageBase.s: igtlMessageBase.cxx.s
 
 # target to generate assembly for a file
 igtlMessageBase.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageBase.cxx.s
 .PHONY : igtlMessageBase.cxx.s
 
 igtlMessageFactory.o: igtlMessageFactory.cxx.o
@@ -582,7 +582,7 @@ igtlMessageFactory.o: igtlMessageFactory.cxx.o
 
 # target to build an object file
 igtlMessageFactory.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.o
 .PHONY : igtlMessageFactory.cxx.o
 
 igtlMessageFactory.i: igtlMessageFactory.cxx.i
@@ -591,7 +591,7 @@ igtlMessageFactory.i: igtlMessageFactory.cxx.i
 
 # target to preprocess a source file
 igtlMessageFactory.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.i
 .PHONY : igtlMessageFactory.cxx.i
 
 igtlMessageFactory.s: igtlMessageFactory.cxx.s
@@ -600,7 +600,7 @@ igtlMessageFactory.s: igtlMessageFactory.cxx.s
 
 # target to generate assembly for a file
 igtlMessageFactory.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageFactory.cxx.s
 .PHONY : igtlMessageFactory.cxx.s
 
 igtlMessageRTPWrapper.o: igtlMessageRTPWrapper.cxx.o
@@ -609,7 +609,7 @@ igtlMessageRTPWrapper.o: igtlMessageRTPWrapper.cxx.o
 
 # target to build an object file
 igtlMessageRTPWrapper.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.o
 .PHONY : igtlMessageRTPWrapper.cxx.o
 
 igtlMessageRTPWrapper.i: igtlMessageRTPWrapper.cxx.i
@@ -618,7 +618,7 @@ igtlMessageRTPWrapper.i: igtlMessageRTPWrapper.cxx.i
 
 # target to preprocess a source file
 igtlMessageRTPWrapper.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.i
 .PHONY : igtlMessageRTPWrapper.cxx.i
 
 igtlMessageRTPWrapper.s: igtlMessageRTPWrapper.cxx.s
@@ -627,7 +627,7 @@ igtlMessageRTPWrapper.s: igtlMessageRTPWrapper.cxx.s
 
 # target to generate assembly for a file
 igtlMessageRTPWrapper.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMessageRTPWrapper.cxx.s
 .PHONY : igtlMessageRTPWrapper.cxx.s
 
 igtlMultiThreader.o: igtlMultiThreader.cxx.o
@@ -636,7 +636,7 @@ igtlMultiThreader.o: igtlMultiThreader.cxx.o
 
 # target to build an object file
 igtlMultiThreader.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.o
 .PHONY : igtlMultiThreader.cxx.o
 
 igtlMultiThreader.i: igtlMultiThreader.cxx.i
@@ -645,7 +645,7 @@ igtlMultiThreader.i: igtlMultiThreader.cxx.i
 
 # target to preprocess a source file
 igtlMultiThreader.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.i
 .PHONY : igtlMultiThreader.cxx.i
 
 igtlMultiThreader.s: igtlMultiThreader.cxx.s
@@ -654,7 +654,7 @@ igtlMultiThreader.s: igtlMultiThreader.cxx.s
 
 # target to generate assembly for a file
 igtlMultiThreader.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMultiThreader.cxx.s
 .PHONY : igtlMultiThreader.cxx.s
 
 igtlMutexLock.o: igtlMutexLock.cxx.o
@@ -663,7 +663,7 @@ igtlMutexLock.o: igtlMutexLock.cxx.o
 
 # target to build an object file
 igtlMutexLock.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.o
 .PHONY : igtlMutexLock.cxx.o
 
 igtlMutexLock.i: igtlMutexLock.cxx.i
@@ -672,7 +672,7 @@ igtlMutexLock.i: igtlMutexLock.cxx.i
 
 # target to preprocess a source file
 igtlMutexLock.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.i
 .PHONY : igtlMutexLock.cxx.i
 
 igtlMutexLock.s: igtlMutexLock.cxx.s
@@ -681,7 +681,7 @@ igtlMutexLock.s: igtlMutexLock.cxx.s
 
 # target to generate assembly for a file
 igtlMutexLock.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlMutexLock.cxx.s
 .PHONY : igtlMutexLock.cxx.s
 
 igtlNDArrayMessage.o: igtlNDArrayMessage.cxx.o
@@ -690,7 +690,7 @@ igtlNDArrayMessage.o: igtlNDArrayMessage.cxx.o
 
 # target to build an object file
 igtlNDArrayMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.o
 .PHONY : igtlNDArrayMessage.cxx.o
 
 igtlNDArrayMessage.i: igtlNDArrayMessage.cxx.i
@@ -699,7 +699,7 @@ igtlNDArrayMessage.i: igtlNDArrayMessage.cxx.i
 
 # target to preprocess a source file
 igtlNDArrayMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.i
 .PHONY : igtlNDArrayMessage.cxx.i
 
 igtlNDArrayMessage.s: igtlNDArrayMessage.cxx.s
@@ -708,7 +708,7 @@ igtlNDArrayMessage.s: igtlNDArrayMessage.cxx.s
 
 # target to generate assembly for a file
 igtlNDArrayMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlNDArrayMessage.cxx.s
 .PHONY : igtlNDArrayMessage.cxx.s
 
 igtlOSUtil.o: igtlOSUtil.cxx.o
@@ -717,7 +717,7 @@ igtlOSUtil.o: igtlOSUtil.cxx.o
 
 # target to build an object file
 igtlOSUtil.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.o
 .PHONY : igtlOSUtil.cxx.o
 
 igtlOSUtil.i: igtlOSUtil.cxx.i
@@ -726,7 +726,7 @@ igtlOSUtil.i: igtlOSUtil.cxx.i
 
 # target to preprocess a source file
 igtlOSUtil.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.i
 .PHONY : igtlOSUtil.cxx.i
 
 igtlOSUtil.s: igtlOSUtil.cxx.s
@@ -735,7 +735,7 @@ igtlOSUtil.s: igtlOSUtil.cxx.s
 
 # target to generate assembly for a file
 igtlOSUtil.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlOSUtil.cxx.s
 .PHONY : igtlOSUtil.cxx.s
 
 igtlObject.o: igtlObject.cxx.o
@@ -744,7 +744,7 @@ igtlObject.o: igtlObject.cxx.o
 
 # target to build an object file
 igtlObject.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.o
 .PHONY : igtlObject.cxx.o
 
 igtlObject.i: igtlObject.cxx.i
@@ -753,7 +753,7 @@ igtlObject.i: igtlObject.cxx.i
 
 # target to preprocess a source file
 igtlObject.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.i
 .PHONY : igtlObject.cxx.i
 
 igtlObject.s: igtlObject.cxx.s
@@ -762,7 +762,7 @@ igtlObject.s: igtlObject.cxx.s
 
 # target to generate assembly for a file
 igtlObject.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObject.cxx.s
 .PHONY : igtlObject.cxx.s
 
 igtlObjectFactoryBase.o: igtlObjectFactoryBase.cxx.o
@@ -771,7 +771,7 @@ igtlObjectFactoryBase.o: igtlObjectFactoryBase.cxx.o
 
 # target to build an object file
 igtlObjectFactoryBase.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.o
 .PHONY : igtlObjectFactoryBase.cxx.o
 
 igtlObjectFactoryBase.i: igtlObjectFactoryBase.cxx.i
@@ -780,7 +780,7 @@ igtlObjectFactoryBase.i: igtlObjectFactoryBase.cxx.i
 
 # target to preprocess a source file
 igtlObjectFactoryBase.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.i
 .PHONY : igtlObjectFactoryBase.cxx.i
 
 igtlObjectFactoryBase.s: igtlObjectFactoryBase.cxx.s
@@ -789,7 +789,7 @@ igtlObjectFactoryBase.s: igtlObjectFactoryBase.cxx.s
 
 # target to generate assembly for a file
 igtlObjectFactoryBase.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlObjectFactoryBase.cxx.s
 .PHONY : igtlObjectFactoryBase.cxx.s
 
 igtlPointMessage.o: igtlPointMessage.cxx.o
@@ -798,7 +798,7 @@ igtlPointMessage.o: igtlPointMessage.cxx.o
 
 # target to build an object file
 igtlPointMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.o
 .PHONY : igtlPointMessage.cxx.o
 
 igtlPointMessage.i: igtlPointMessage.cxx.i
@@ -807,7 +807,7 @@ igtlPointMessage.i: igtlPointMessage.cxx.i
 
 # target to preprocess a source file
 igtlPointMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.i
 .PHONY : igtlPointMessage.cxx.i
 
 igtlPointMessage.s: igtlPointMessage.cxx.s
@@ -816,7 +816,7 @@ igtlPointMessage.s: igtlPointMessage.cxx.s
 
 # target to generate assembly for a file
 igtlPointMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPointMessage.cxx.s
 .PHONY : igtlPointMessage.cxx.s
 
 igtlPolyDataMessage.o: igtlPolyDataMessage.cxx.o
@@ -825,7 +825,7 @@ igtlPolyDataMessage.o: igtlPolyDataMessage.cxx.o
 
 # target to build an object file
 igtlPolyDataMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.o
 .PHONY : igtlPolyDataMessage.cxx.o
 
 igtlPolyDataMessage.i: igtlPolyDataMessage.cxx.i
@@ -834,7 +834,7 @@ igtlPolyDataMessage.i: igtlPolyDataMessage.cxx.i
 
 # target to preprocess a source file
 igtlPolyDataMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.i
 .PHONY : igtlPolyDataMessage.cxx.i
 
 igtlPolyDataMessage.s: igtlPolyDataMessage.cxx.s
@@ -843,7 +843,7 @@ igtlPolyDataMessage.s: igtlPolyDataMessage.cxx.s
 
 # target to generate assembly for a file
 igtlPolyDataMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPolyDataMessage.cxx.s
 .PHONY : igtlPolyDataMessage.cxx.s
 
 igtlPositionMessage.o: igtlPositionMessage.cxx.o
@@ -852,7 +852,7 @@ igtlPositionMessage.o: igtlPositionMessage.cxx.o
 
 # target to build an object file
 igtlPositionMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.o
 .PHONY : igtlPositionMessage.cxx.o
 
 igtlPositionMessage.i: igtlPositionMessage.cxx.i
@@ -861,7 +861,7 @@ igtlPositionMessage.i: igtlPositionMessage.cxx.i
 
 # target to preprocess a source file
 igtlPositionMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.i
 .PHONY : igtlPositionMessage.cxx.i
 
 igtlPositionMessage.s: igtlPositionMessage.cxx.s
@@ -870,7 +870,7 @@ igtlPositionMessage.s: igtlPositionMessage.cxx.s
 
 # target to generate assembly for a file
 igtlPositionMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlPositionMessage.cxx.s
 .PHONY : igtlPositionMessage.cxx.s
 
 igtlQuaternionTrackingDataMessage.o: igtlQuaternionTrackingDataMessage.cxx.o
@@ -879,7 +879,7 @@ igtlQuaternionTrackingDataMessage.o: igtlQuaternionTrackingDataMessage.cxx.o
 
 # target to build an object file
 igtlQuaternionTrackingDataMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.o
 .PHONY : igtlQuaternionTrackingDataMessage.cxx.o
 
 igtlQuaternionTrackingDataMessage.i: igtlQuaternionTrackingDataMessage.cxx.i
@@ -888,7 +888,7 @@ igtlQuaternionTrackingDataMessage.i: igtlQuaternionTrackingDataMessage.cxx.i
 
 # target to preprocess a source file
 igtlQuaternionTrackingDataMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.i
 .PHONY : igtlQuaternionTrackingDataMessage.cxx.i
 
 igtlQuaternionTrackingDataMessage.s: igtlQuaternionTrackingDataMessage.cxx.s
@@ -897,7 +897,7 @@ igtlQuaternionTrackingDataMessage.s: igtlQuaternionTrackingDataMessage.cxx.s
 
 # target to generate assembly for a file
 igtlQuaternionTrackingDataMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQuaternionTrackingDataMessage.cxx.s
 .PHONY : igtlQuaternionTrackingDataMessage.cxx.s
 
 igtlQueryMessage.o: igtlQueryMessage.cxx.o
@@ -906,7 +906,7 @@ igtlQueryMessage.o: igtlQueryMessage.cxx.o
 
 # target to build an object file
 igtlQueryMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.o
 .PHONY : igtlQueryMessage.cxx.o
 
 igtlQueryMessage.i: igtlQueryMessage.cxx.i
@@ -915,7 +915,7 @@ igtlQueryMessage.i: igtlQueryMessage.cxx.i
 
 # target to preprocess a source file
 igtlQueryMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.i
 .PHONY : igtlQueryMessage.cxx.i
 
 igtlQueryMessage.s: igtlQueryMessage.cxx.s
@@ -924,7 +924,7 @@ igtlQueryMessage.s: igtlQueryMessage.cxx.s
 
 # target to generate assembly for a file
 igtlQueryMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlQueryMessage.cxx.s
 .PHONY : igtlQueryMessage.cxx.s
 
 igtlSensorMessage.o: igtlSensorMessage.cxx.o
@@ -933,7 +933,7 @@ igtlSensorMessage.o: igtlSensorMessage.cxx.o
 
 # target to build an object file
 igtlSensorMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.o
 .PHONY : igtlSensorMessage.cxx.o
 
 igtlSensorMessage.i: igtlSensorMessage.cxx.i
@@ -942,7 +942,7 @@ igtlSensorMessage.i: igtlSensorMessage.cxx.i
 
 # target to preprocess a source file
 igtlSensorMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.i
 .PHONY : igtlSensorMessage.cxx.i
 
 igtlSensorMessage.s: igtlSensorMessage.cxx.s
@@ -951,7 +951,7 @@ igtlSensorMessage.s: igtlSensorMessage.cxx.s
 
 # target to generate assembly for a file
 igtlSensorMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSensorMessage.cxx.s
 .PHONY : igtlSensorMessage.cxx.s
 
 igtlServerSocket.o: igtlServerSocket.cxx.o
@@ -960,7 +960,7 @@ igtlServerSocket.o: igtlServerSocket.cxx.o
 
 # target to build an object file
 igtlServerSocket.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.o
 .PHONY : igtlServerSocket.cxx.o
 
 igtlServerSocket.i: igtlServerSocket.cxx.i
@@ -969,7 +969,7 @@ igtlServerSocket.i: igtlServerSocket.cxx.i
 
 # target to preprocess a source file
 igtlServerSocket.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.i
 .PHONY : igtlServerSocket.cxx.i
 
 igtlServerSocket.s: igtlServerSocket.cxx.s
@@ -978,7 +978,7 @@ igtlServerSocket.s: igtlServerSocket.cxx.s
 
 # target to generate assembly for a file
 igtlServerSocket.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlServerSocket.cxx.s
 .PHONY : igtlServerSocket.cxx.s
 
 igtlSessionManager.o: igtlSessionManager.cxx.o
@@ -987,7 +987,7 @@ igtlSessionManager.o: igtlSessionManager.cxx.o
 
 # target to build an object file
 igtlSessionManager.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.o
 .PHONY : igtlSessionManager.cxx.o
 
 igtlSessionManager.i: igtlSessionManager.cxx.i
@@ -996,7 +996,7 @@ igtlSessionManager.i: igtlSessionManager.cxx.i
 
 # target to preprocess a source file
 igtlSessionManager.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.i
 .PHONY : igtlSessionManager.cxx.i
 
 igtlSessionManager.s: igtlSessionManager.cxx.s
@@ -1005,7 +1005,7 @@ igtlSessionManager.s: igtlSessionManager.cxx.s
 
 # target to generate assembly for a file
 igtlSessionManager.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSessionManager.cxx.s
 .PHONY : igtlSessionManager.cxx.s
 
 igtlSimpleFastMutexLock.o: igtlSimpleFastMutexLock.cxx.o
@@ -1014,7 +1014,7 @@ igtlSimpleFastMutexLock.o: igtlSimpleFastMutexLock.cxx.o
 
 # target to build an object file
 igtlSimpleFastMutexLock.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.o
 .PHONY : igtlSimpleFastMutexLock.cxx.o
 
 igtlSimpleFastMutexLock.i: igtlSimpleFastMutexLock.cxx.i
@@ -1023,7 +1023,7 @@ igtlSimpleFastMutexLock.i: igtlSimpleFastMutexLock.cxx.i
 
 # target to preprocess a source file
 igtlSimpleFastMutexLock.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.i
 .PHONY : igtlSimpleFastMutexLock.cxx.i
 
 igtlSimpleFastMutexLock.s: igtlSimpleFastMutexLock.cxx.s
@@ -1032,7 +1032,7 @@ igtlSimpleFastMutexLock.s: igtlSimpleFastMutexLock.cxx.s
 
 # target to generate assembly for a file
 igtlSimpleFastMutexLock.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSimpleFastMutexLock.cxx.s
 .PHONY : igtlSimpleFastMutexLock.cxx.s
 
 igtlSocket.o: igtlSocket.cxx.o
@@ -1041,7 +1041,7 @@ igtlSocket.o: igtlSocket.cxx.o
 
 # target to build an object file
 igtlSocket.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.o
 .PHONY : igtlSocket.cxx.o
 
 igtlSocket.i: igtlSocket.cxx.i
@@ -1050,7 +1050,7 @@ igtlSocket.i: igtlSocket.cxx.i
 
 # target to preprocess a source file
 igtlSocket.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.i
 .PHONY : igtlSocket.cxx.i
 
 igtlSocket.s: igtlSocket.cxx.s
@@ -1059,7 +1059,7 @@ igtlSocket.s: igtlSocket.cxx.s
 
 # target to generate assembly for a file
 igtlSocket.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlSocket.cxx.s
 .PHONY : igtlSocket.cxx.s
 
 igtlStatusMessage.o: igtlStatusMessage.cxx.o
@@ -1068,7 +1068,7 @@ igtlStatusMessage.o: igtlStatusMessage.cxx.o
 
 # target to build an object file
 igtlStatusMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.o
 .PHONY : igtlStatusMessage.cxx.o
 
 igtlStatusMessage.i: igtlStatusMessage.cxx.i
@@ -1077,7 +1077,7 @@ igtlStatusMessage.i: igtlStatusMessage.cxx.i
 
 # target to preprocess a source file
 igtlStatusMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.i
 .PHONY : igtlStatusMessage.cxx.i
 
 igtlStatusMessage.s: igtlStatusMessage.cxx.s
@@ -1086,7 +1086,7 @@ igtlStatusMessage.s: igtlStatusMessage.cxx.s
 
 # target to generate assembly for a file
 igtlStatusMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStatusMessage.cxx.s
 .PHONY : igtlStatusMessage.cxx.s
 
 igtlStringMessage.o: igtlStringMessage.cxx.o
@@ -1095,7 +1095,7 @@ igtlStringMessage.o: igtlStringMessage.cxx.o
 
 # target to build an object file
 igtlStringMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.o
 .PHONY : igtlStringMessage.cxx.o
 
 igtlStringMessage.i: igtlStringMessage.cxx.i
@@ -1104,7 +1104,7 @@ igtlStringMessage.i: igtlStringMessage.cxx.i
 
 # target to preprocess a source file
 igtlStringMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.i
 .PHONY : igtlStringMessage.cxx.i
 
 igtlStringMessage.s: igtlStringMessage.cxx.s
@@ -1113,7 +1113,7 @@ igtlStringMessage.s: igtlStringMessage.cxx.s
 
 # target to generate assembly for a file
 igtlStringMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlStringMessage.cxx.s
 .PHONY : igtlStringMessage.cxx.s
 
 igtlTimeStamp.o: igtlTimeStamp.cxx.o
@@ -1122,7 +1122,7 @@ igtlTimeStamp.o: igtlTimeStamp.cxx.o
 
 # target to build an object file
 igtlTimeStamp.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.o
 .PHONY : igtlTimeStamp.cxx.o
 
 igtlTimeStamp.i: igtlTimeStamp.cxx.i
@@ -1131,7 +1131,7 @@ igtlTimeStamp.i: igtlTimeStamp.cxx.i
 
 # target to preprocess a source file
 igtlTimeStamp.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.i
 .PHONY : igtlTimeStamp.cxx.i
 
 igtlTimeStamp.s: igtlTimeStamp.cxx.s
@@ -1140,7 +1140,7 @@ igtlTimeStamp.s: igtlTimeStamp.cxx.s
 
 # target to generate assembly for a file
 igtlTimeStamp.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTimeStamp.cxx.s
 .PHONY : igtlTimeStamp.cxx.s
 
 igtlTrackingDataMessage.o: igtlTrackingDataMessage.cxx.o
@@ -1149,7 +1149,7 @@ igtlTrackingDataMessage.o: igtlTrackingDataMessage.cxx.o
 
 # target to build an object file
 igtlTrackingDataMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.o
 .PHONY : igtlTrackingDataMessage.cxx.o
 
 igtlTrackingDataMessage.i: igtlTrackingDataMessage.cxx.i
@@ -1158,7 +1158,7 @@ igtlTrackingDataMessage.i: igtlTrackingDataMessage.cxx.i
 
 # target to preprocess a source file
 igtlTrackingDataMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.i
 .PHONY : igtlTrackingDataMessage.cxx.i
 
 igtlTrackingDataMessage.s: igtlTrackingDataMessage.cxx.s
@@ -1167,7 +1167,7 @@ igtlTrackingDataMessage.s: igtlTrackingDataMessage.cxx.s
 
 # target to generate assembly for a file
 igtlTrackingDataMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrackingDataMessage.cxx.s
 .PHONY : igtlTrackingDataMessage.cxx.s
 
 igtlTrajectoryMessage.o: igtlTrajectoryMessage.cxx.o
@@ -1176,7 +1176,7 @@ igtlTrajectoryMessage.o: igtlTrajectoryMessage.cxx.o
 
 # target to build an object file
 igtlTrajectoryMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.o
 .PHONY : igtlTrajectoryMessage.cxx.o
 
 igtlTrajectoryMessage.i: igtlTrajectoryMessage.cxx.i
@@ -1185,7 +1185,7 @@ igtlTrajectoryMessage.i: igtlTrajectoryMessage.cxx.i
 
 # target to preprocess a source file
 igtlTrajectoryMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.i
 .PHONY : igtlTrajectoryMessage.cxx.i
 
 igtlTrajectoryMessage.s: igtlTrajectoryMessage.cxx.s
@@ -1194,7 +1194,7 @@ igtlTrajectoryMessage.s: igtlTrajectoryMessage.cxx.s
 
 # target to generate assembly for a file
 igtlTrajectoryMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTrajectoryMessage.cxx.s
 .PHONY : igtlTrajectoryMessage.cxx.s
 
 igtlTransformMessage.o: igtlTransformMessage.cxx.o
@@ -1203,7 +1203,7 @@ igtlTransformMessage.o: igtlTransformMessage.cxx.o
 
 # target to build an object file
 igtlTransformMessage.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.o
 .PHONY : igtlTransformMessage.cxx.o
 
 igtlTransformMessage.i: igtlTransformMessage.cxx.i
@@ -1212,7 +1212,7 @@ igtlTransformMessage.i: igtlTransformMessage.cxx.i
 
 # target to preprocess a source file
 igtlTransformMessage.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.i
 .PHONY : igtlTransformMessage.cxx.i
 
 igtlTransformMessage.s: igtlTransformMessage.cxx.s
@@ -1221,7 +1221,7 @@ igtlTransformMessage.s: igtlTransformMessage.cxx.s
 
 # target to generate assembly for a file
 igtlTransformMessage.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlTransformMessage.cxx.s
 .PHONY : igtlTransformMessage.cxx.s
 
 igtlUDPClientSocket.o: igtlUDPClientSocket.cxx.o
@@ -1230,7 +1230,7 @@ igtlUDPClientSocket.o: igtlUDPClientSocket.cxx.o
 
 # target to build an object file
 igtlUDPClientSocket.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.o
 .PHONY : igtlUDPClientSocket.cxx.o
 
 igtlUDPClientSocket.i: igtlUDPClientSocket.cxx.i
@@ -1239,7 +1239,7 @@ igtlUDPClientSocket.i: igtlUDPClientSocket.cxx.i
 
 # target to preprocess a source file
 igtlUDPClientSocket.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.i
 .PHONY : igtlUDPClientSocket.cxx.i
 
 igtlUDPClientSocket.s: igtlUDPClientSocket.cxx.s
@@ -1248,7 +1248,7 @@ igtlUDPClientSocket.s: igtlUDPClientSocket.cxx.s
 
 # target to generate assembly for a file
 igtlUDPClientSocket.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPClientSocket.cxx.s
 .PHONY : igtlUDPClientSocket.cxx.s
 
 igtlUDPServerSocket.o: igtlUDPServerSocket.cxx.o
@@ -1257,7 +1257,7 @@ igtlUDPServerSocket.o: igtlUDPServerSocket.cxx.o
 
 # target to build an object file
 igtlUDPServerSocket.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.o
 .PHONY : igtlUDPServerSocket.cxx.o
 
 igtlUDPServerSocket.i: igtlUDPServerSocket.cxx.i
@@ -1266,7 +1266,7 @@ igtlUDPServerSocket.i: igtlUDPServerSocket.cxx.i
 
 # target to preprocess a source file
 igtlUDPServerSocket.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.i
 .PHONY : igtlUDPServerSocket.cxx.i
 
 igtlUDPServerSocket.s: igtlUDPServerSocket.cxx.s
@@ -1275,7 +1275,7 @@ igtlUDPServerSocket.s: igtlUDPServerSocket.cxx.s
 
 # target to generate assembly for a file
 igtlUDPServerSocket.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUDPServerSocket.cxx.s
 .PHONY : igtlUDPServerSocket.cxx.s
 
 igtlUnit.o: igtlUnit.cxx.o
@@ -1284,7 +1284,7 @@ igtlUnit.o: igtlUnit.cxx.o
 
 # target to build an object file
 igtlUnit.cxx.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.o
 .PHONY : igtlUnit.cxx.o
 
 igtlUnit.i: igtlUnit.cxx.i
@@ -1293,7 +1293,7 @@ igtlUnit.i: igtlUnit.cxx.i
 
 # target to preprocess a source file
 igtlUnit.cxx.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.i
 .PHONY : igtlUnit.cxx.i
 
 igtlUnit.s: igtlUnit.cxx.s
@@ -1302,7 +1302,7 @@ igtlUnit.s: igtlUnit.cxx.s
 
 # target to generate assembly for a file
 igtlUnit.cxx.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlUnit.cxx.s
 .PHONY : igtlUnit.cxx.s
 
 igtlutil/igtl_bind.o: igtlutil/igtl_bind.c.o
@@ -1311,7 +1311,7 @@ igtlutil/igtl_bind.o: igtlutil/igtl_bind.c.o
 
 # target to build an object file
 igtlutil/igtl_bind.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.o
 .PHONY : igtlutil/igtl_bind.c.o
 
 igtlutil/igtl_bind.i: igtlutil/igtl_bind.c.i
@@ -1320,7 +1320,7 @@ igtlutil/igtl_bind.i: igtlutil/igtl_bind.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_bind.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.i
 .PHONY : igtlutil/igtl_bind.c.i
 
 igtlutil/igtl_bind.s: igtlutil/igtl_bind.c.s
@@ -1329,7 +1329,7 @@ igtlutil/igtl_bind.s: igtlutil/igtl_bind.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_bind.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_bind.c.s
 .PHONY : igtlutil/igtl_bind.c.s
 
 igtlutil/igtl_capability.o: igtlutil/igtl_capability.c.o
@@ -1338,7 +1338,7 @@ igtlutil/igtl_capability.o: igtlutil/igtl_capability.c.o
 
 # target to build an object file
 igtlutil/igtl_capability.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.o
 .PHONY : igtlutil/igtl_capability.c.o
 
 igtlutil/igtl_capability.i: igtlutil/igtl_capability.c.i
@@ -1347,7 +1347,7 @@ igtlutil/igtl_capability.i: igtlutil/igtl_capability.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_capability.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.i
 .PHONY : igtlutil/igtl_capability.c.i
 
 igtlutil/igtl_capability.s: igtlutil/igtl_capability.c.s
@@ -1356,7 +1356,7 @@ igtlutil/igtl_capability.s: igtlutil/igtl_capability.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_capability.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_capability.c.s
 .PHONY : igtlutil/igtl_capability.c.s
 
 igtlutil/igtl_colortable.o: igtlutil/igtl_colortable.c.o
@@ -1365,7 +1365,7 @@ igtlutil/igtl_colortable.o: igtlutil/igtl_colortable.c.o
 
 # target to build an object file
 igtlutil/igtl_colortable.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.o
 .PHONY : igtlutil/igtl_colortable.c.o
 
 igtlutil/igtl_colortable.i: igtlutil/igtl_colortable.c.i
@@ -1374,7 +1374,7 @@ igtlutil/igtl_colortable.i: igtlutil/igtl_colortable.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_colortable.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.i
 .PHONY : igtlutil/igtl_colortable.c.i
 
 igtlutil/igtl_colortable.s: igtlutil/igtl_colortable.c.s
@@ -1383,7 +1383,7 @@ igtlutil/igtl_colortable.s: igtlutil/igtl_colortable.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_colortable.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_colortable.c.s
 .PHONY : igtlutil/igtl_colortable.c.s
 
 igtlutil/igtl_command.o: igtlutil/igtl_command.c.o
@@ -1392,7 +1392,7 @@ igtlutil/igtl_command.o: igtlutil/igtl_command.c.o
 
 # target to build an object file
 igtlutil/igtl_command.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.o
 .PHONY : igtlutil/igtl_command.c.o
 
 igtlutil/igtl_command.i: igtlutil/igtl_command.c.i
@@ -1401,7 +1401,7 @@ igtlutil/igtl_command.i: igtlutil/igtl_command.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_command.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.i
 .PHONY : igtlutil/igtl_command.c.i
 
 igtlutil/igtl_command.s: igtlutil/igtl_command.c.s
@@ -1410,7 +1410,7 @@ igtlutil/igtl_command.s: igtlutil/igtl_command.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_command.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_command.c.s
 .PHONY : igtlutil/igtl_command.c.s
 
 igtlutil/igtl_header.o: igtlutil/igtl_header.c.o
@@ -1419,7 +1419,7 @@ igtlutil/igtl_header.o: igtlutil/igtl_header.c.o
 
 # target to build an object file
 igtlutil/igtl_header.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.o
 .PHONY : igtlutil/igtl_header.c.o
 
 igtlutil/igtl_header.i: igtlutil/igtl_header.c.i
@@ -1428,7 +1428,7 @@ igtlutil/igtl_header.i: igtlutil/igtl_header.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_header.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.i
 .PHONY : igtlutil/igtl_header.c.i
 
 igtlutil/igtl_header.s: igtlutil/igtl_header.c.s
@@ -1437,7 +1437,7 @@ igtlutil/igtl_header.s: igtlutil/igtl_header.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_header.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_header.c.s
 .PHONY : igtlutil/igtl_header.c.s
 
 igtlutil/igtl_image.o: igtlutil/igtl_image.c.o
@@ -1446,7 +1446,7 @@ igtlutil/igtl_image.o: igtlutil/igtl_image.c.o
 
 # target to build an object file
 igtlutil/igtl_image.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.o
 .PHONY : igtlutil/igtl_image.c.o
 
 igtlutil/igtl_image.i: igtlutil/igtl_image.c.i
@@ -1455,7 +1455,7 @@ igtlutil/igtl_image.i: igtlutil/igtl_image.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_image.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.i
 .PHONY : igtlutil/igtl_image.c.i
 
 igtlutil/igtl_image.s: igtlutil/igtl_image.c.s
@@ -1464,7 +1464,7 @@ igtlutil/igtl_image.s: igtlutil/igtl_image.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_image.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_image.c.s
 .PHONY : igtlutil/igtl_image.c.s
 
 igtlutil/igtl_imgmeta.o: igtlutil/igtl_imgmeta.c.o
@@ -1473,7 +1473,7 @@ igtlutil/igtl_imgmeta.o: igtlutil/igtl_imgmeta.c.o
 
 # target to build an object file
 igtlutil/igtl_imgmeta.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.o
 .PHONY : igtlutil/igtl_imgmeta.c.o
 
 igtlutil/igtl_imgmeta.i: igtlutil/igtl_imgmeta.c.i
@@ -1482,7 +1482,7 @@ igtlutil/igtl_imgmeta.i: igtlutil/igtl_imgmeta.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_imgmeta.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.i
 .PHONY : igtlutil/igtl_imgmeta.c.i
 
 igtlutil/igtl_imgmeta.s: igtlutil/igtl_imgmeta.c.s
@@ -1491,7 +1491,7 @@ igtlutil/igtl_imgmeta.s: igtlutil/igtl_imgmeta.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_imgmeta.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_imgmeta.c.s
 .PHONY : igtlutil/igtl_imgmeta.c.s
 
 igtlutil/igtl_lbmeta.o: igtlutil/igtl_lbmeta.c.o
@@ -1500,7 +1500,7 @@ igtlutil/igtl_lbmeta.o: igtlutil/igtl_lbmeta.c.o
 
 # target to build an object file
 igtlutil/igtl_lbmeta.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.o
 .PHONY : igtlutil/igtl_lbmeta.c.o
 
 igtlutil/igtl_lbmeta.i: igtlutil/igtl_lbmeta.c.i
@@ -1509,7 +1509,7 @@ igtlutil/igtl_lbmeta.i: igtlutil/igtl_lbmeta.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_lbmeta.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.i
 .PHONY : igtlutil/igtl_lbmeta.c.i
 
 igtlutil/igtl_lbmeta.s: igtlutil/igtl_lbmeta.c.s
@@ -1518,7 +1518,7 @@ igtlutil/igtl_lbmeta.s: igtlutil/igtl_lbmeta.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_lbmeta.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_lbmeta.c.s
 .PHONY : igtlutil/igtl_lbmeta.c.s
 
 igtlutil/igtl_ndarray.o: igtlutil/igtl_ndarray.c.o
@@ -1527,7 +1527,7 @@ igtlutil/igtl_ndarray.o: igtlutil/igtl_ndarray.c.o
 
 # target to build an object file
 igtlutil/igtl_ndarray.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.o
 .PHONY : igtlutil/igtl_ndarray.c.o
 
 igtlutil/igtl_ndarray.i: igtlutil/igtl_ndarray.c.i
@@ -1536,7 +1536,7 @@ igtlutil/igtl_ndarray.i: igtlutil/igtl_ndarray.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_ndarray.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.i
 .PHONY : igtlutil/igtl_ndarray.c.i
 
 igtlutil/igtl_ndarray.s: igtlutil/igtl_ndarray.c.s
@@ -1545,7 +1545,7 @@ igtlutil/igtl_ndarray.s: igtlutil/igtl_ndarray.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_ndarray.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_ndarray.c.s
 .PHONY : igtlutil/igtl_ndarray.c.s
 
 igtlutil/igtl_point.o: igtlutil/igtl_point.c.o
@@ -1554,7 +1554,7 @@ igtlutil/igtl_point.o: igtlutil/igtl_point.c.o
 
 # target to build an object file
 igtlutil/igtl_point.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.o
 .PHONY : igtlutil/igtl_point.c.o
 
 igtlutil/igtl_point.i: igtlutil/igtl_point.c.i
@@ -1563,7 +1563,7 @@ igtlutil/igtl_point.i: igtlutil/igtl_point.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_point.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.i
 .PHONY : igtlutil/igtl_point.c.i
 
 igtlutil/igtl_point.s: igtlutil/igtl_point.c.s
@@ -1572,7 +1572,7 @@ igtlutil/igtl_point.s: igtlutil/igtl_point.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_point.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_point.c.s
 .PHONY : igtlutil/igtl_point.c.s
 
 igtlutil/igtl_polydata.o: igtlutil/igtl_polydata.c.o
@@ -1581,7 +1581,7 @@ igtlutil/igtl_polydata.o: igtlutil/igtl_polydata.c.o
 
 # target to build an object file
 igtlutil/igtl_polydata.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.o
 .PHONY : igtlutil/igtl_polydata.c.o
 
 igtlutil/igtl_polydata.i: igtlutil/igtl_polydata.c.i
@@ -1590,7 +1590,7 @@ igtlutil/igtl_polydata.i: igtlutil/igtl_polydata.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_polydata.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.i
 .PHONY : igtlutil/igtl_polydata.c.i
 
 igtlutil/igtl_polydata.s: igtlutil/igtl_polydata.c.s
@@ -1599,7 +1599,7 @@ igtlutil/igtl_polydata.s: igtlutil/igtl_polydata.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_polydata.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_polydata.c.s
 .PHONY : igtlutil/igtl_polydata.c.s
 
 igtlutil/igtl_position.o: igtlutil/igtl_position.c.o
@@ -1608,7 +1608,7 @@ igtlutil/igtl_position.o: igtlutil/igtl_position.c.o
 
 # target to build an object file
 igtlutil/igtl_position.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.o
 .PHONY : igtlutil/igtl_position.c.o
 
 igtlutil/igtl_position.i: igtlutil/igtl_position.c.i
@@ -1617,7 +1617,7 @@ igtlutil/igtl_position.i: igtlutil/igtl_position.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_position.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.i
 .PHONY : igtlutil/igtl_position.c.i
 
 igtlutil/igtl_position.s: igtlutil/igtl_position.c.s
@@ -1626,7 +1626,7 @@ igtlutil/igtl_position.s: igtlutil/igtl_position.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_position.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_position.c.s
 .PHONY : igtlutil/igtl_position.c.s
 
 igtlutil/igtl_qtdata.o: igtlutil/igtl_qtdata.c.o
@@ -1635,7 +1635,7 @@ igtlutil/igtl_qtdata.o: igtlutil/igtl_qtdata.c.o
 
 # target to build an object file
 igtlutil/igtl_qtdata.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.o
 .PHONY : igtlutil/igtl_qtdata.c.o
 
 igtlutil/igtl_qtdata.i: igtlutil/igtl_qtdata.c.i
@@ -1644,7 +1644,7 @@ igtlutil/igtl_qtdata.i: igtlutil/igtl_qtdata.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_qtdata.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.i
 .PHONY : igtlutil/igtl_qtdata.c.i
 
 igtlutil/igtl_qtdata.s: igtlutil/igtl_qtdata.c.s
@@ -1653,7 +1653,7 @@ igtlutil/igtl_qtdata.s: igtlutil/igtl_qtdata.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_qtdata.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtdata.c.s
 .PHONY : igtlutil/igtl_qtdata.c.s
 
 igtlutil/igtl_qtrans.o: igtlutil/igtl_qtrans.c.o
@@ -1662,7 +1662,7 @@ igtlutil/igtl_qtrans.o: igtlutil/igtl_qtrans.c.o
 
 # target to build an object file
 igtlutil/igtl_qtrans.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.o
 .PHONY : igtlutil/igtl_qtrans.c.o
 
 igtlutil/igtl_qtrans.i: igtlutil/igtl_qtrans.c.i
@@ -1671,7 +1671,7 @@ igtlutil/igtl_qtrans.i: igtlutil/igtl_qtrans.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_qtrans.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.i
 .PHONY : igtlutil/igtl_qtrans.c.i
 
 igtlutil/igtl_qtrans.s: igtlutil/igtl_qtrans.c.s
@@ -1680,7 +1680,7 @@ igtlutil/igtl_qtrans.s: igtlutil/igtl_qtrans.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_qtrans.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_qtrans.c.s
 .PHONY : igtlutil/igtl_qtrans.c.s
 
 igtlutil/igtl_query.o: igtlutil/igtl_query.c.o
@@ -1689,7 +1689,7 @@ igtlutil/igtl_query.o: igtlutil/igtl_query.c.o
 
 # target to build an object file
 igtlutil/igtl_query.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.o
 .PHONY : igtlutil/igtl_query.c.o
 
 igtlutil/igtl_query.i: igtlutil/igtl_query.c.i
@@ -1698,7 +1698,7 @@ igtlutil/igtl_query.i: igtlutil/igtl_query.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_query.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.i
 .PHONY : igtlutil/igtl_query.c.i
 
 igtlutil/igtl_query.s: igtlutil/igtl_query.c.s
@@ -1707,7 +1707,7 @@ igtlutil/igtl_query.s: igtlutil/igtl_query.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_query.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_query.c.s
 .PHONY : igtlutil/igtl_query.c.s
 
 igtlutil/igtl_sensor.o: igtlutil/igtl_sensor.c.o
@@ -1716,7 +1716,7 @@ igtlutil/igtl_sensor.o: igtlutil/igtl_sensor.c.o
 
 # target to build an object file
 igtlutil/igtl_sensor.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.o
 .PHONY : igtlutil/igtl_sensor.c.o
 
 igtlutil/igtl_sensor.i: igtlutil/igtl_sensor.c.i
@@ -1725,7 +1725,7 @@ igtlutil/igtl_sensor.i: igtlutil/igtl_sensor.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_sensor.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.i
 .PHONY : igtlutil/igtl_sensor.c.i
 
 igtlutil/igtl_sensor.s: igtlutil/igtl_sensor.c.s
@@ -1734,7 +1734,7 @@ igtlutil/igtl_sensor.s: igtlutil/igtl_sensor.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_sensor.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_sensor.c.s
 .PHONY : igtlutil/igtl_sensor.c.s
 
 igtlutil/igtl_status.o: igtlutil/igtl_status.c.o
@@ -1743,7 +1743,7 @@ igtlutil/igtl_status.o: igtlutil/igtl_status.c.o
 
 # target to build an object file
 igtlutil/igtl_status.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.o
 .PHONY : igtlutil/igtl_status.c.o
 
 igtlutil/igtl_status.i: igtlutil/igtl_status.c.i
@@ -1752,7 +1752,7 @@ igtlutil/igtl_status.i: igtlutil/igtl_status.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_status.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.i
 .PHONY : igtlutil/igtl_status.c.i
 
 igtlutil/igtl_status.s: igtlutil/igtl_status.c.s
@@ -1761,7 +1761,7 @@ igtlutil/igtl_status.s: igtlutil/igtl_status.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_status.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_status.c.s
 .PHONY : igtlutil/igtl_status.c.s
 
 igtlutil/igtl_string.o: igtlutil/igtl_string.c.o
@@ -1770,7 +1770,7 @@ igtlutil/igtl_string.o: igtlutil/igtl_string.c.o
 
 # target to build an object file
 igtlutil/igtl_string.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.o
 .PHONY : igtlutil/igtl_string.c.o
 
 igtlutil/igtl_string.i: igtlutil/igtl_string.c.i
@@ -1779,7 +1779,7 @@ igtlutil/igtl_string.i: igtlutil/igtl_string.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_string.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.i
 .PHONY : igtlutil/igtl_string.c.i
 
 igtlutil/igtl_string.s: igtlutil/igtl_string.c.s
@@ -1788,7 +1788,7 @@ igtlutil/igtl_string.s: igtlutil/igtl_string.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_string.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_string.c.s
 .PHONY : igtlutil/igtl_string.c.s
 
 igtlutil/igtl_tdata.o: igtlutil/igtl_tdata.c.o
@@ -1797,7 +1797,7 @@ igtlutil/igtl_tdata.o: igtlutil/igtl_tdata.c.o
 
 # target to build an object file
 igtlutil/igtl_tdata.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.o
 .PHONY : igtlutil/igtl_tdata.c.o
 
 igtlutil/igtl_tdata.i: igtlutil/igtl_tdata.c.i
@@ -1806,7 +1806,7 @@ igtlutil/igtl_tdata.i: igtlutil/igtl_tdata.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_tdata.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.i
 .PHONY : igtlutil/igtl_tdata.c.i
 
 igtlutil/igtl_tdata.s: igtlutil/igtl_tdata.c.s
@@ -1815,7 +1815,7 @@ igtlutil/igtl_tdata.s: igtlutil/igtl_tdata.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_tdata.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_tdata.c.s
 .PHONY : igtlutil/igtl_tdata.c.s
 
 igtlutil/igtl_trajectory.o: igtlutil/igtl_trajectory.c.o
@@ -1824,7 +1824,7 @@ igtlutil/igtl_trajectory.o: igtlutil/igtl_trajectory.c.o
 
 # target to build an object file
 igtlutil/igtl_trajectory.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.o
 .PHONY : igtlutil/igtl_trajectory.c.o
 
 igtlutil/igtl_trajectory.i: igtlutil/igtl_trajectory.c.i
@@ -1833,7 +1833,7 @@ igtlutil/igtl_trajectory.i: igtlutil/igtl_trajectory.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_trajectory.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.i
 .PHONY : igtlutil/igtl_trajectory.c.i
 
 igtlutil/igtl_trajectory.s: igtlutil/igtl_trajectory.c.s
@@ -1842,7 +1842,7 @@ igtlutil/igtl_trajectory.s: igtlutil/igtl_trajectory.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_trajectory.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_trajectory.c.s
 .PHONY : igtlutil/igtl_trajectory.c.s
 
 igtlutil/igtl_transform.o: igtlutil/igtl_transform.c.o
@@ -1851,7 +1851,7 @@ igtlutil/igtl_transform.o: igtlutil/igtl_transform.c.o
 
 # target to build an object file
 igtlutil/igtl_transform.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.o
 .PHONY : igtlutil/igtl_transform.c.o
 
 igtlutil/igtl_transform.i: igtlutil/igtl_transform.c.i
@@ -1860,7 +1860,7 @@ igtlutil/igtl_transform.i: igtlutil/igtl_transform.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_transform.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.i
 .PHONY : igtlutil/igtl_transform.c.i
 
 igtlutil/igtl_transform.s: igtlutil/igtl_transform.c.s
@@ -1869,7 +1869,7 @@ igtlutil/igtl_transform.s: igtlutil/igtl_transform.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_transform.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_transform.c.s
 .PHONY : igtlutil/igtl_transform.c.s
 
 igtlutil/igtl_unit.o: igtlutil/igtl_unit.c.o
@@ -1878,7 +1878,7 @@ igtlutil/igtl_unit.o: igtlutil/igtl_unit.c.o
 
 # target to build an object file
 igtlutil/igtl_unit.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.o
 .PHONY : igtlutil/igtl_unit.c.o
 
 igtlutil/igtl_unit.i: igtlutil/igtl_unit.c.i
@@ -1887,7 +1887,7 @@ igtlutil/igtl_unit.i: igtlutil/igtl_unit.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_unit.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.i
 .PHONY : igtlutil/igtl_unit.c.i
 
 igtlutil/igtl_unit.s: igtlutil/igtl_unit.c.s
@@ -1896,7 +1896,7 @@ igtlutil/igtl_unit.s: igtlutil/igtl_unit.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_unit.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_unit.c.s
 .PHONY : igtlutil/igtl_unit.c.s
 
 igtlutil/igtl_util.o: igtlutil/igtl_util.c.o
@@ -1905,7 +1905,7 @@ igtlutil/igtl_util.o: igtlutil/igtl_util.c.o
 
 # target to build an object file
 igtlutil/igtl_util.c.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.o
 .PHONY : igtlutil/igtl_util.c.o
 
 igtlutil/igtl_util.i: igtlutil/igtl_util.c.i
@@ -1914,7 +1914,7 @@ igtlutil/igtl_util.i: igtlutil/igtl_util.c.i
 
 # target to preprocess a source file
 igtlutil/igtl_util.c.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.i
 .PHONY : igtlutil/igtl_util.c.i
 
 igtlutil/igtl_util.s: igtlutil/igtl_util.c.s
@@ -1923,7 +1923,7 @@ igtlutil/igtl_util.s: igtlutil/igtl_util.c.s
 
 # target to generate assembly for a file
 igtlutil/igtl_util.c.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Source/CMakeFiles/OpenIGTLink.dir/build.make Source/CMakeFiles/OpenIGTLink.dir/igtlutil/igtl_util.c.s
 .PHONY : igtlutil/igtl_util.c.s
 
 # Help Target
@@ -2145,6 +2145,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

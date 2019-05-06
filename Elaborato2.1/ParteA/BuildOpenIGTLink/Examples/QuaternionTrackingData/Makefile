@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/QuaternionTrackingData/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/QuaternionTrackingData/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/rule
 .PHONY : Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ QuaternionTrackingDataServer: Examples/QuaternionTrackingData/CMakeFiles/Quatern
 
 # fast build rule for target.
 QuaternionTrackingDataServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build
 .PHONY : QuaternionTrackingDataServer/fast
 
 # Convenience name for target.
 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/rule
 .PHONY : Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/rule
 
 # Convenience name for target.
@@ -183,37 +183,37 @@ QuaternionTrackingDataClient: Examples/QuaternionTrackingData/CMakeFiles/Quatern
 
 # fast build rule for target.
 QuaternionTrackingDataClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build
 .PHONY : QuaternionTrackingDataClient/fast
 
 # target to build an object file
 QuaternionTrackingDataClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/QuaternionTrackingDataClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/QuaternionTrackingDataClient.o
 .PHONY : QuaternionTrackingDataClient.o
 
 # target to preprocess a source file
 QuaternionTrackingDataClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/QuaternionTrackingDataClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/QuaternionTrackingDataClient.i
 .PHONY : QuaternionTrackingDataClient.i
 
 # target to generate assembly for a file
 QuaternionTrackingDataClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/QuaternionTrackingDataClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataClient.dir/QuaternionTrackingDataClient.s
 .PHONY : QuaternionTrackingDataClient.s
 
 # target to build an object file
 QuaternionTrackingDataServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.o
 .PHONY : QuaternionTrackingDataServer.o
 
 # target to preprocess a source file
 QuaternionTrackingDataServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.i
 .PHONY : QuaternionTrackingDataServer.i
 
 # target to generate assembly for a file
 QuaternionTrackingDataServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/build.make Examples/QuaternionTrackingData/CMakeFiles/QuaternionTrackingDataServer.dir/QuaternionTrackingDataServer.s
 .PHONY : QuaternionTrackingDataServer.s
 
 # Help Target
@@ -247,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

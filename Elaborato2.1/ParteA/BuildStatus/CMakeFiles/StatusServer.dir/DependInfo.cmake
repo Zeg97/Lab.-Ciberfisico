@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/Status/StatusServer.cxx" "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildStatus/CMakeFiles/StatusServer.dir/StatusServer.o"
+  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/Status/StatusServer.cxx" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildStatus/CMakeFiles/StatusServer.dir/StatusServer.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink/Source/igtlutil"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Source/igtlutil"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink/Source/igtlutil"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Source/igtlutil"
   )
 
 # Targets to which this target links.

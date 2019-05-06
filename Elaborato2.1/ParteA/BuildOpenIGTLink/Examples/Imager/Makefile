@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/OpenIGTLink
+CMAKE_SOURCE_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/OpenIGTLink"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink
+CMAKE_BINARY_DIR = "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/Examples/Imager/CMakeFiles/progress.marks
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/CMakeFiles 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/Examples/Imager/CMakeFiles/progress.marks"
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/clean
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/preinstall
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Examples/Imager/CMakeFiles/ImagerClient2.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerClient2.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerClient2.dir/rule
 .PHONY : Examples/Imager/CMakeFiles/ImagerClient2.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ImagerClient2: Examples/Imager/CMakeFiles/ImagerClient2.dir/rule
 
 # fast build rule for target.
 ImagerClient2/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/build
 .PHONY : ImagerClient2/fast
 
 # Convenience name for target.
 Examples/Imager/CMakeFiles/ImagerClient.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerClient.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerClient.dir/rule
 .PHONY : Examples/Imager/CMakeFiles/ImagerClient.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ ImagerClient: Examples/Imager/CMakeFiles/ImagerClient.dir/rule
 
 # fast build rule for target.
 ImagerClient/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/build
 .PHONY : ImagerClient/fast
 
 # Convenience name for target.
 Examples/Imager/CMakeFiles/ImagerServer.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerServer.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerServer.dir/rule
 .PHONY : Examples/Imager/CMakeFiles/ImagerServer.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ ImagerServer: Examples/Imager/CMakeFiles/ImagerServer.dir/rule
 
 # fast build rule for target.
 ImagerServer/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/build
 .PHONY : ImagerServer/fast
 
 # Convenience name for target.
 Examples/Imager/CMakeFiles/ImagerClient3.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerClient3.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerClient3.dir/rule
 .PHONY : Examples/Imager/CMakeFiles/ImagerClient3.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ ImagerClient3: Examples/Imager/CMakeFiles/ImagerClient3.dir/rule
 
 # fast build rule for target.
 ImagerClient3/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/build
 .PHONY : ImagerClient3/fast
 
 # Convenience name for target.
 Examples/Imager/CMakeFiles/ImagerServer3.dir/rule:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerServer3.dir/rule
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f CMakeFiles/Makefile2 Examples/Imager/CMakeFiles/ImagerServer3.dir/rule
 .PHONY : Examples/Imager/CMakeFiles/ImagerServer3.dir/rule
 
 # Convenience name for target.
@@ -228,82 +228,82 @@ ImagerServer3: Examples/Imager/CMakeFiles/ImagerServer3.dir/rule
 
 # fast build rule for target.
 ImagerServer3/fast:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/build
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/build
 .PHONY : ImagerServer3/fast
 
 # target to build an object file
 ImagerClient.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/ImagerClient.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/ImagerClient.o
 .PHONY : ImagerClient.o
 
 # target to preprocess a source file
 ImagerClient.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/ImagerClient.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/ImagerClient.i
 .PHONY : ImagerClient.i
 
 # target to generate assembly for a file
 ImagerClient.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/ImagerClient.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient.dir/build.make Examples/Imager/CMakeFiles/ImagerClient.dir/ImagerClient.s
 .PHONY : ImagerClient.s
 
 # target to build an object file
 ImagerClient2.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/ImagerClient2.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/ImagerClient2.o
 .PHONY : ImagerClient2.o
 
 # target to preprocess a source file
 ImagerClient2.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/ImagerClient2.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/ImagerClient2.i
 .PHONY : ImagerClient2.i
 
 # target to generate assembly for a file
 ImagerClient2.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/ImagerClient2.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient2.dir/build.make Examples/Imager/CMakeFiles/ImagerClient2.dir/ImagerClient2.s
 .PHONY : ImagerClient2.s
 
 # target to build an object file
 ImagerClient3.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/ImagerClient3.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/ImagerClient3.o
 .PHONY : ImagerClient3.o
 
 # target to preprocess a source file
 ImagerClient3.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/ImagerClient3.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/ImagerClient3.i
 .PHONY : ImagerClient3.i
 
 # target to generate assembly for a file
 ImagerClient3.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/ImagerClient3.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerClient3.dir/build.make Examples/Imager/CMakeFiles/ImagerClient3.dir/ImagerClient3.s
 .PHONY : ImagerClient3.s
 
 # target to build an object file
 ImagerServer.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/ImagerServer.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/ImagerServer.o
 .PHONY : ImagerServer.o
 
 # target to preprocess a source file
 ImagerServer.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/ImagerServer.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/ImagerServer.i
 .PHONY : ImagerServer.i
 
 # target to generate assembly for a file
 ImagerServer.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/ImagerServer.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer.dir/build.make Examples/Imager/CMakeFiles/ImagerServer.dir/ImagerServer.s
 .PHONY : ImagerServer.s
 
 # target to build an object file
 ImagerServer3.o:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/ImagerServer3.o
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/ImagerServer3.o
 .PHONY : ImagerServer3.o
 
 # target to preprocess a source file
 ImagerServer3.i:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/ImagerServer3.i
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/ImagerServer3.i
 .PHONY : ImagerServer3.i
 
 # target to generate assembly for a file
 ImagerServer3.s:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/ImagerServer3.s
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(MAKE) -f Examples/Imager/CMakeFiles/ImagerServer3.dir/build.make Examples/Imager/CMakeFiles/ImagerServer3.dir/ImagerServer3.s
 .PHONY : ImagerServer3.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

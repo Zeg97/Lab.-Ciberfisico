@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/OpenIGTLinkConfig.cmake"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/OpenIGTLinkTargets.cmake"
-  "/home/matteo/Scrivania/LabCiberfisico/Elaborato2.1/BuildOpenIGTLink/UseOpenIGTLink.cmake"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/OpenIGTLinkConfig.cmake"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/OpenIGTLinkTargets.cmake"
+  "/home/matteo/Scrivania/Lab. Ciberfisico/Elaborato2.1/ParteA/BuildOpenIGTLink/UseOpenIGTLink.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
